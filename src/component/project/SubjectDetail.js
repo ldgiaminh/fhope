@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import ProjectPropOne from "./itemProp/ProjectPropOne";
 import ProjectPropTwo from "./itemProp/ProjectPropTwo";
 
-import SectionTitle from "../../elements/section-title/SectionTitle";
+import SectionTitleSubject from "../../elements/section-title/SectionTitleSubject";
 import ProjectData from "../../data/project/ProjectData.json";
+import Comment from "../blog/Comment";
 
 const filters = [
   {
@@ -22,65 +22,30 @@ const filters = [
 
 const AllData = ProjectData;
 
-const ProjectOne = ({ parentClass, colSize, itemShow, columnGap }) => {
+const SubjectDetail = ({ parentClass, colSize, itemShow, columnGap }) => {
   const [getAllItems] = useState(AllData);
   const [visiableProject] = useState(itemShow ? itemShow : 6);
-  const [activeFilter, setActiveFilter] = useState("");
+
   const [visibleItems, setVisibleItems] = useState([]);
 
   useEffect(() => {
-    setActiveFilter(filters[0].label);
     setVisibleItems(getAllItems.filter((item) => item.id <= visiableProject));
   }, []);
-
-  const handleChange = (e) => {
-    e.preventDefault();
-    let target = e.target.textContent;
-
-    setActiveFilter(target);
-
-    let tempData = [];
-    if (target === filters[0].label) {
-      tempData = getAllItems.filter((data) => data.id <= visiableProject);
-    } else {
-      for (let i = 0; i < getAllItems.length; i++) {
-        const element = getAllItems[i];
-        let categories = element["category"];
-
-        if (categories.includes(target)) {
-          tempData.push(element);
-        }
-      }
-    }
-    setVisibleItems(tempData);
-  };
 
   return (
     <>
       <div
-        className={`section section-padding-2 ${
+        className={`section section-padding-2 bg-color-purple ${
           parentClass ? parentClass : ""
         }`}
       >
         <div className="container">
-          <SectionTitle
+          <SectionTitleSubject
             subtitle="Chúng tôi đã chuẩn bị sẵn cho bạn những tài liệu mà bạn cần tìm."
-            title="Mục tài liệu <br>
-                        môn học"
+            title="Mục tài liệu môn học"
             textAlignment="heading-left mb--40"
-            textColor=""
+            textColor="text-white"
           />
-          <div className="isotope-button isotope-project-btn">
-            {filters.map((filter) => (
-              <button
-                onClick={handleChange}
-                className={filter.label === activeFilter ? "is-checked" : " "}
-                key={filter.id}
-              >
-                {filter.label}
-              </button>
-            ))}
-          </div>
           <div className={`row ${columnGap ? columnGap : "row-35"}`}>
             {visibleItems.map((data) => (
               <div className={colSize ? colSize : "col-md-6"} key={data.id}>
@@ -114,4 +79,4 @@ const ProjectOne = ({ parentClass, colSize, itemShow, columnGap }) => {
   );
 };
 
-export default ProjectOne;
+export default SubjectDetail;

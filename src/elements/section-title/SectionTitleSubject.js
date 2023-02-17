@@ -1,6 +1,6 @@
 import React from "react";
 
-const SectionTitle = ({
+const SectionTitleSubject = ({
   subtitle,
   title,
   description,
@@ -13,10 +13,13 @@ const SectionTitle = ({
         className="subtitle"
         dangerouslySetInnerHTML={{ __html: subtitle }}
       ></div>
-      <h2 className="title" dangerouslySetInnerHTML={{ __html: title }}></h2>
+      <h2
+        className="title text-white"
+        dangerouslySetInnerHTML={{ __html: title }}
+      ></h2>
       <p dangerouslySetInnerHTML={{ __html: description }}></p>
     </div>
   );
 };
 
-export default SectionTitle;
+export default SectionTitleSubject;

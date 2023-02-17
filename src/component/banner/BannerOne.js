@@ -25,7 +25,7 @@ const BannerOne = () => {
                   to={process.env.PUBLIC_URL + "/contact"}
                   className="axil-btn btn-fill-primary btn-large"
                 >
-                  Get Started
+                  Tải tài liệu
                 </Link>
               </AnimationOnScroll>
             </div>
@@ -40,14 +40,12 @@ const BannerOne = () => {
               >
                 <div className="large-thumb">
                   <img
-                    src={
-                      process.env.PUBLIC_URL + "/images/banner/laptop-poses.png"
-                    }
+                    src={process.env.PUBLIC_URL + "/images/banner/window.png"}
                     alt="Laptop"
                   />
                 </div>
               </AnimationOnScroll>
-              {/* <AnimationOnScroll
+              <AnimationOnScroll
                 animateIn="slideInRight"
                 duration={2}
                 delay={300}
@@ -61,7 +59,7 @@ const BannerOne = () => {
                     alt="Laptop"
                   />
                 </div>
-              </AnimationOnScroll> */}
+              </AnimationOnScroll>
               <ul className="list-unstyled shape-group">
                 <li className="shape shape-1">
                   <AnimationOnScroll
@@ -71,7 +69,9 @@ const BannerOne = () => {
                     animateOnce={true}
                   >
                     <img
-                      src={process.env.PUBLIC_URL + "/images/banner/bulb.png"}
+                      src={
+                        process.env.PUBLIC_URL + "/images/banner/chat-group.png"
+                      }
                       alt="chat"
                     />
                   </AnimationOnScroll>

@@ -1,68 +1,87 @@
-import React from 'react';
+import React from "react";
 import { FaReply } from "react-icons/fa";
 
-
 const Comment = () => {
-
-    return (
-       <>
-       <div className="blog-comment">
-            <h3 className="section-title">Comments:</h3>
-            <div className="comment-list">
-                <div className="comment">
-                    <div className="thumbnail">
-                        <img src={process.env.PUBLIC_URL + "/images/blog/author-1.png"} alt="Blog Comment" />
-                    </div>
-                    <div className="content">
-                        <div className="heading">
-                            <h5 className="title">Sophie Asveld</h5>
-                            <div className="comment-date">
-                                <p>February 14, 2021</p>
-                                <button className="reply-btn"><FaReply /></button>
-                            </div>
-                        </div>
-                        <p>Email is a crucial channel in any marketing mix,
-                            and never has this been truer than for today’s entrepreneur. Curious
-                            what to say.</p>
-                    </div>
-                </div>
-                <div className="comment comment-reply">
-                    <div className="thumbnail">
-                        <img src={process.env.PUBLIC_URL + "/images/blog/author-2.png"} alt="Blog Comment" />
-                    </div>
-                    <div className="content">
-                        <div className="heading">
-                            <h5 className="title">Ariana Gerad</h5>
-                            <div className="comment-date">
-                                <p>February 14, 2021</p>
-                                <button className="reply-btn"><FaReply /></button>
-                            </div>
-                        </div>
-                        <p>Email is a crucial channel in any marketing mix,
-                            and never has this been truer than for today’s entrepreneur. Curious
-                            what to say.</p>
-                    </div>
-                </div>
-                <div className="comment">
-                    <div className="thumbnail">
-                        <img src={process.env.PUBLIC_URL + "/images/blog/author-3.png"} alt="Blog Comment" />
-                    </div>
-                    <div className="content">
-                        <div className="heading">
-                            <h5 className="title">Sophie Asveld</h5>
-                            <div className="comment-date">
-                                <p>February 14, 2021</p>
-                                <button className="reply-btn"><FaReply /></button>
-                            </div>
-                        </div>
-                        <p>Email is a crucial channel in any marketing mix,
-                            and never has this been truer than for today’s entrepreneur. Curious
-                            what to say.</p>
-                    </div>
-                </div>
+  return (
+    <>
+      <div className="blog-comment">
+        <h3 className="section-title">Comments:</h3>
+        <div className="comment-list">
+          <div className="comment">
+            <div className="thumbnail">
+              <img
+                src={process.env.PUBLIC_URL + "/images/blog/author-1.png"}
+                alt="Blog Comment"
+              />
             </div>
+            <div className="content">
+              <div className="heading">
+                <h5 className="title">Sophie Asveld</h5>
+                <div className="comment-date">
+                  <p>February 14, 2021</p>
+                  <button className="reply-btn">
+                    <FaReply />
+                  </button>
+                </div>
+              </div>
+              <p>
+                Email is a crucial channel in any marketing mix, and never has
+                this been truer than for today’s entrepreneur. Curious what to
+                say.
+              </p>
+            </div>
+          </div>
+          <div className="comment comment-reply">
+            <div className="thumbnail">
+              <img
+                src={process.env.PUBLIC_URL + "/images/blog/author-2.png"}
+                alt="Blog Comment"
+              />
+            </div>
+            <div className="content">
+              <div className="heading">
+                <h5 className="title">Ariana Gerad</h5>
+                <div className="comment-date">
+                  <p>February 14, 2021</p>
+                  <button className="reply-btn">
+                    <FaReply />
+                  </button>
+                </div>
+              </div>
+              <p>
+                Email is a crucial channel in any marketing mix, and never has
+                this been truer than for today’s entrepreneur. Curious what to
+                say.
+              </p>
+            </div>
+          </div>
+          <div className="comment">
+            <div className="thumbnail">
+              <img
+                src={process.env.PUBLIC_URL + "/images/blog/author-3.png"}
+                alt="Blog Comment"
+              />
+            </div>
+            <div className="content">
+              <div className="heading">
+                <h5 className="title">Sophie Asveld</h5>
+                <div className="comment-date">
+                  <p>February 14, 2021</p>
+                  <button className="reply-btn">
+                    <FaReply />
+                  </button>
+                </div>
+              </div>
+              <p>
+                Email is a crucial channel in any marketing mix, and never has
+                this been truer than for today’s entrepreneur. Curious what to
+                say.
+              </p>
+            </div>
+          </div>
         </div>
-        <div className="blog-comment-form">
+      </div>
+      {/* <div className="blog-comment-form">
             <h3 className="title">Leave a comment:</h3>
             <form>
                 <div className="row">
@@ -103,10 +122,9 @@ const Comment = () => {
                     </div>
                 </div>
             </form>
-        </div>
-       </>
-    )
-}
+        </div> */}
+    </>
+  );
+};
 
-
-export default Comment
+export default Comment;
