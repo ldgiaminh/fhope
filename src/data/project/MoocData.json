@@ -38,14 +38,14 @@
     },
     {
         "id": 2,
-        "title": "Đại học FPT xây dựng tinh thần khởi nghiệp cho sinh viên với chuỗi Talkshow “Be successful in your own way”",
+        "title": "Assignment 2",
         "post_date": "",
         "read_time": "",
         "thumb": "images/blog/download.png",
         "large_thumb": ["images/blog/large_thumb_1.png", "images/blog/large_thumb_2.png", "images/blog/large_thumb_3.png"],
-        "category": "Agency News",
+        "category": "Assignment",
         "format": "gallery",
-        "excerpt": "Từ ngày 09/02/2023, chuỗi Talkshow Startup: Be successful in your own way sẽ được tổ chức tại trường Đại học FPT. Với sự xuất hiện của những khách mời đình đám nhất cộng đồng khởi nghiệp như Shark Thái Vân Linh, Lê Yên Thanh,... chương trình hứa hẹn mang đến câu chuyện về hành trình khởi nghiệp cảm hứng cùng những kinh nghiệm quý báu. ",
+        "excerpt": "Mô tả",
         "body": [
             "<p>Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.</p>", 
             "<p>Habitasse per feugiat aliquam luctus accumsan curae, suspendisse aliquam taciti eros neque, aenean sit iaculis risus commodo ut sociosqu rhoncus potenti tristique placerat sit tempus, duis erat feugiat cras sociosqu porta ut praesent, fermentum donec convallis tellus vulputate duis nibh rhoncus phasellus dui massa nisl.</p>",
@@ -77,14 +77,14 @@
     },
     {
         "id": 3,
-        "title": "SEO Statistics You Should Know in 2022",
+        "title": "Assignment 3",
         "post_date": "",
         "read_time": "",
         "thumb": "images/blog/download.png",
         "large_thumb": "images/blog/large_thumb_2.png",
-        "category": "Information technology",
+        "category": "Assignment",
         "format": "video",
-        "excerpt": "Want to know the one thing that every successful digital marketer does first to ensure they get the biggest return on their marketing budget?",
+        "excerpt": "Mô tả",
         "body": [
             "<p>Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.</p>", 
             "<p>Habitasse per feugiat aliquam luctus accumsan curae, suspendisse aliquam taciti eros neque, aenean sit iaculis risus commodo ut sociosqu rhoncus potenti tristique placerat sit tempus, duis erat feugiat cras sociosqu porta ut praesent, fermentum donec convallis tellus vulputate duis nibh rhoncus phasellus dui massa nisl.</p>", 
@@ -97,7 +97,7 @@
             "<p>Email is a crucial channel in any marketing mix, and never has this been truer than for today’s entrepreneur. Curious what to say? How to say it? How often to hit “send”? Each bite-sized lesson delivers core concepts, guiding questions, and tactical how-to resources.</p>"
         ],
         "features_img": ["/images/blog/blog-8.png", "/images/blog/blog-9.png"],
-        "author_name": "Alina Rose",
+        "author_name": "Admin",
         "author_avatar": "images/blog/author-2.png",
         "author_para": "Email is a crucial channel in any marketing mix, and never has this been truer than for today’s entrepreneur. Curious what to say.",
         "social": [
@@ -121,7 +121,7 @@
         "read_time": "9 min to read",
         "thumb": "images/blog/thumb_3.png",
         "large_thumb": "images/blog/large_thumb_3.png",
-        "category": "Information technology",
+        "category": "Slide",
         "format": "standard",
         "excerpt": "Want to know the one thing that every successful digital marketer does first to ensure they get the biggest return on their marketing budget?",
         "body": [
@@ -160,7 +160,202 @@
         "read_time": "9 min to read",
         "thumb": "images/blog/thumb_4.png",
         "large_thumb": "images/blog/large_thumb_4.png",
-        "category": "Information technology",
+        "category": "Slide",
+        "format": "standard",
+        "excerpt": "Want to know the one thing that every successful digital marketer does first to ensure they get the biggest return on their marketing budget?",
+        "body": [
+            "<p>Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.</p>", 
+            "<p>Habitasse per feugiat aliquam luctus accumsan curae, suspendisse aliquam taciti eros neque, aenean sit iaculis risus commodo ut sociosqu rhoncus potenti tristique placerat sit tempus, duis erat feugiat cras sociosqu porta ut praesent, fermentum donec convallis tellus vulputate duis nibh rhoncus phasellus dui massa nisl.</p>", 
+            "<p> Whether you’re kicking off a new campaign or looking to revamp your strategy, the lessons you’ll learn will be universal to all small business email marketing.</p>",
+            "<p>MailChimp is an email marketing service provider founded in 2001. It has 9 million users that collectively send over 15 billion emails through the service each month.</p>",
+            "<h3 class='title mb--30'>Habitasse per feugiat aliquam luctus</h3>",
+            "<p>Email is a crucial channel in any marketing mix, and never has this been truer than for today’s entrepreneur. Curious what to say? How to say it? How often to hit “send”? Each bite-sized lesson delivers core concepts, guiding questions, and tactical how-to resources.</p>",
+            "<p>Whether you’re kicking off a new campaign or looking to revamp your strategy, the lessons you’ll learn will be universal to all small business email marketing.</p>",
+            "<h3 class='title mb--30'>Habitasse per feugiat aliquam luctus accumsan curae</h3>",
+            "<p>Email is a crucial channel in any marketing mix, and never has this been truer than for today’s entrepreneur. Curious what to say? How to say it? How often to hit “send”? Each bite-sized lesson delivers core concepts, guiding questions, and tactical how-to resources.</p>"
+        ],
+        "features_img": ["/images/blog/blog-8.png", "/images/blog/blog-9.png"],
+        "author_name": "Alina Rose",
+        "author_avatar": "images/blog/author-2.png",
+        "author_para": "Email is a crucial channel in any marketing mix, and never has this been truer than for today’s entrepreneur. Curious what to say.",
+        "social": [
+            {
+                "facebook": "https://www.facebook.com/",
+                "twitter": "https://twitter.com/",
+                "instagram": "https://www.instagram.com/",
+                "linkedin": "https://www.linkedin.com/",
+                "vimeo": "https://vimeo.com/",
+                "pinterst": "https://www.pinterest.com/",
+                "dribble": "https://dribbble.com/",
+                "behance": "https://www.behance.net/"
+
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Quiz 1",
+        "post_date": "Apr 10, 2022",
+        "read_time": "9 min to read",
+        "thumb": "images/blog/thumb_4.png",
+        "large_thumb": "images/blog/large_thumb_4.png",
+        "category": "Quiz",
+        "format": "standard",
+        "excerpt": "Want to know the one thing that every successful digital marketer does first to ensure they get the biggest return on their marketing budget?",
+        "body": [
+            "<p>Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.</p>", 
+            "<p>Habitasse per feugiat aliquam luctus accumsan curae, suspendisse aliquam taciti eros neque, aenean sit iaculis risus commodo ut sociosqu rhoncus potenti tristique placerat sit tempus, duis erat feugiat cras sociosqu porta ut praesent, fermentum donec convallis tellus vulputate duis nibh rhoncus phasellus dui massa nisl.</p>", 
+            "<p> Whether you’re kicking off a new campaign or looking to revamp your strategy, the lessons you’ll learn will be universal to all small business email marketing.</p>",
+            "<p>MailChimp is an email marketing service provider founded in 2001. It has 9 million users that collectively send over 15 billion emails through the service each month.</p>",
+            "<h3 class='title mb--30'>Habitasse per feugiat aliquam luctus</h3>",
+            "<p>Email is a crucial channel in any marketing mix, and never has this been truer than for today’s entrepreneur. Curious what to say? How to say it? How often to hit “send”? Each bite-sized lesson delivers core concepts, guiding questions, and tactical how-to resources.</p>",
+            "<p>Whether you’re kicking off a new campaign or looking to revamp your strategy, the lessons you’ll learn will be universal to all small business email marketing.</p>",
+            "<h3 class='title mb--30'>Habitasse per feugiat aliquam luctus accumsan curae</h3>",
+            "<p>Email is a crucial channel in any marketing mix, and never has this been truer than for today’s entrepreneur. Curious what to say? How to say it? How often to hit “send”? Each bite-sized lesson delivers core concepts, guiding questions, and tactical how-to resources.</p>"
+        ],
+        "features_img": ["/images/blog/blog-8.png", "/images/blog/blog-9.png"],
+        "author_name": "Alina Rose",
+        "author_avatar": "images/blog/author-2.png",
+        "author_para": "Email is a crucial channel in any marketing mix, and never has this been truer than for today’s entrepreneur. Curious what to say.",
+        "social": [
+            {
+                "facebook": "https://www.facebook.com/",
+                "twitter": "https://twitter.com/",
+                "instagram": "https://www.instagram.com/",
+                "linkedin": "https://www.linkedin.com/",
+                "vimeo": "https://vimeo.com/",
+                "pinterst": "https://www.pinterest.com/",
+                "dribble": "https://dribbble.com/",
+                "behance": "https://www.behance.net/"
+
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Quiz 2",
+        "post_date": "Apr 10, 2022",
+        "read_time": "9 min to read",
+        "thumb": "images/blog/thumb_4.png",
+        "large_thumb": "images/blog/large_thumb_4.png",
+        "category": "Quiz",
+        "format": "standard",
+        "excerpt": "Want to know the one thing that every successful digital marketer does first to ensure they get the biggest return on their marketing budget?",
+        "body": [
+            "<p>Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.</p>", 
+            "<p>Habitasse per feugiat aliquam luctus accumsan curae, suspendisse aliquam taciti eros neque, aenean sit iaculis risus commodo ut sociosqu rhoncus potenti tristique placerat sit tempus, duis erat feugiat cras sociosqu porta ut praesent, fermentum donec convallis tellus vulputate duis nibh rhoncus phasellus dui massa nisl.</p>", 
+            "<p> Whether you’re kicking off a new campaign or looking to revamp your strategy, the lessons you’ll learn will be universal to all small business email marketing.</p>",
+            "<p>MailChimp is an email marketing service provider founded in 2001. It has 9 million users that collectively send over 15 billion emails through the service each month.</p>",
+            "<h3 class='title mb--30'>Habitasse per feugiat aliquam luctus</h3>",
+            "<p>Email is a crucial channel in any marketing mix, and never has this been truer than for today’s entrepreneur. Curious what to say? How to say it? How often to hit “send”? Each bite-sized lesson delivers core concepts, guiding questions, and tactical how-to resources.</p>",
+            "<p>Whether you’re kicking off a new campaign or looking to revamp your strategy, the lessons you’ll learn will be universal to all small business email marketing.</p>",
+            "<h3 class='title mb--30'>Habitasse per feugiat aliquam luctus accumsan curae</h3>",
+            "<p>Email is a crucial channel in any marketing mix, and never has this been truer than for today’s entrepreneur. Curious what to say? How to say it? How often to hit “send”? Each bite-sized lesson delivers core concepts, guiding questions, and tactical how-to resources.</p>"
+        ],
+        "features_img": ["/images/blog/blog-8.png", "/images/blog/blog-9.png"],
+        "author_name": "Alina Rose",
+        "author_avatar": "images/blog/author-2.png",
+        "author_para": "Email is a crucial channel in any marketing mix, and never has this been truer than for today’s entrepreneur. Curious what to say.",
+        "social": [
+            {
+                "facebook": "https://www.facebook.com/",
+                "twitter": "https://twitter.com/",
+                "instagram": "https://www.instagram.com/",
+                "linkedin": "https://www.linkedin.com/",
+                "vimeo": "https://vimeo.com/",
+                "pinterst": "https://www.pinterest.com/",
+                "dribble": "https://dribbble.com/",
+                "behance": "https://www.behance.net/"
+
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "title": "Quiz 3",
+        "post_date": "Apr 10, 2022",
+        "read_time": "9 min to read",
+        "thumb": "images/blog/thumb_4.png",
+        "large_thumb": "images/blog/large_thumb_4.png",
+        "category": "Quiz",
+        "format": "standard",
+        "excerpt": "Want to know the one thing that every successful digital marketer does first to ensure they get the biggest return on their marketing budget?",
+        "body": [
+            "<p>Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.</p>", 
+            "<p>Habitasse per feugiat aliquam luctus accumsan curae, suspendisse aliquam taciti eros neque, aenean sit iaculis risus commodo ut sociosqu rhoncus potenti tristique placerat sit tempus, duis erat feugiat cras sociosqu porta ut praesent, fermentum donec convallis tellus vulputate duis nibh rhoncus phasellus dui massa nisl.</p>", 
+            "<p> Whether you’re kicking off a new campaign or looking to revamp your strategy, the lessons you’ll learn will be universal to all small business email marketing.</p>",
+            "<p>MailChimp is an email marketing service provider founded in 2001. It has 9 million users that collectively send over 15 billion emails through the service each month.</p>",
+            "<h3 class='title mb--30'>Habitasse per feugiat aliquam luctus</h3>",
+            "<p>Email is a crucial channel in any marketing mix, and never has this been truer than for today’s entrepreneur. Curious what to say? How to say it? How often to hit “send”? Each bite-sized lesson delivers core concepts, guiding questions, and tactical how-to resources.</p>",
+            "<p>Whether you’re kicking off a new campaign or looking to revamp your strategy, the lessons you’ll learn will be universal to all small business email marketing.</p>",
+            "<h3 class='title mb--30'>Habitasse per feugiat aliquam luctus accumsan curae</h3>",
+            "<p>Email is a crucial channel in any marketing mix, and never has this been truer than for today’s entrepreneur. Curious what to say? How to say it? How often to hit “send”? Each bite-sized lesson delivers core concepts, guiding questions, and tactical how-to resources.</p>"
+        ],
+        "features_img": ["/images/blog/blog-8.png", "/images/blog/blog-9.png"],
+        "author_name": "Alina Rose",
+        "author_avatar": "images/blog/author-2.png",
+        "author_para": "Email is a crucial channel in any marketing mix, and never has this been truer than for today’s entrepreneur. Curious what to say.",
+        "social": [
+            {
+                "facebook": "https://www.facebook.com/",
+                "twitter": "https://twitter.com/",
+                "instagram": "https://www.instagram.com/",
+                "linkedin": "https://www.linkedin.com/",
+                "vimeo": "https://vimeo.com/",
+                "pinterst": "https://www.pinterest.com/",
+                "dribble": "https://dribbble.com/",
+                "behance": "https://www.behance.net/"
+
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "title": "Progress Test 1",
+        "post_date": "Apr 10, 2022",
+        "read_time": "9 min to read",
+        "thumb": "images/blog/thumb_4.png",
+        "large_thumb": "images/blog/large_thumb_4.png",
+        "category": "Progress Test",
+        "format": "standard",
+        "excerpt": "Want to know the one thing that every successful digital marketer does first to ensure they get the biggest return on their marketing budget?",
+        "body": [
+            "<p>Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.</p>", 
+            "<p>Habitasse per feugiat aliquam luctus accumsan curae, suspendisse aliquam taciti eros neque, aenean sit iaculis risus commodo ut sociosqu rhoncus potenti tristique placerat sit tempus, duis erat feugiat cras sociosqu porta ut praesent, fermentum donec convallis tellus vulputate duis nibh rhoncus phasellus dui massa nisl.</p>", 
+            "<p> Whether you’re kicking off a new campaign or looking to revamp your strategy, the lessons you’ll learn will be universal to all small business email marketing.</p>",
+            "<p>MailChimp is an email marketing service provider founded in 2001. It has 9 million users that collectively send over 15 billion emails through the service each month.</p>",
+            "<h3 class='title mb--30'>Habitasse per feugiat aliquam luctus</h3>",
+            "<p>Email is a crucial channel in any marketing mix, and never has this been truer than for today’s entrepreneur. Curious what to say? How to say it? How often to hit “send”? Each bite-sized lesson delivers core concepts, guiding questions, and tactical how-to resources.</p>",
+            "<p>Whether you’re kicking off a new campaign or looking to revamp your strategy, the lessons you’ll learn will be universal to all small business email marketing.</p>",
+            "<h3 class='title mb--30'>Habitasse per feugiat aliquam luctus accumsan curae</h3>",
+            "<p>Email is a crucial channel in any marketing mix, and never has this been truer than for today’s entrepreneur. Curious what to say? How to say it? How often to hit “send”? Each bite-sized lesson delivers core concepts, guiding questions, and tactical how-to resources.</p>"
+        ],
+        "features_img": ["/images/blog/blog-8.png", "/images/blog/blog-9.png"],
+        "author_name": "Alina Rose",
+        "author_avatar": "images/blog/author-2.png",
+        "author_para": "Email is a crucial channel in any marketing mix, and never has this been truer than for today’s entrepreneur. Curious what to say.",
+        "social": [
+            {
+                "facebook": "https://www.facebook.com/",
+                "twitter": "https://twitter.com/",
+                "instagram": "https://www.instagram.com/",
+                "linkedin": "https://www.linkedin.com/",
+                "vimeo": "https://vimeo.com/",
+                "pinterst": "https://www.pinterest.com/",
+                "dribble": "https://dribbble.com/",
+                "behance": "https://www.behance.net/"
+
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "title": "Progress Test 2",
+        "post_date": "Apr 10, 2022",
+        "read_time": "9 min to read",
+        "thumb": "images/blog/thumb_4.png",
+        "large_thumb": "images/blog/large_thumb_4.png",
+        "category": "Progress Test",
         "format": "standard",
         "excerpt": "Want to know the one thing that every successful digital marketer does first to ensure they get the biggest return on their marketing budget?",
         "body": [
@@ -192,4 +387,5 @@
             }
         ]
     }
+    
 ]
