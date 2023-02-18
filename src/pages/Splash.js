@@ -30,13 +30,12 @@ const Splash = () => {
         <SplashHeader />
         <BannerOne />
 
-        <div className="section section-padding-2 bg-color-dark">
+        <div className="section section-padding-2 bg-color-purple">
           <div className="container">
             <SectionTitle
-              subtitle="What We Can Do For You"
-              title="Services we can help you with"
-              description="Nulla facilisi. Nullam in magna id dolor 
-                        blandit rutrum eget vulputate augue sed eu imperdiet."
+              subtitle="Lợi ích chúng tôi mang lại"
+              title="Chúng tôi có thể mang lại cho bạn những giá trị,"
+              description=""
               textAlignment="heading-light-left"
               textColor=""
             />
@@ -72,7 +71,7 @@ const Splash = () => {
 
         <ProjectOne
           colSize="col-xl-3 col-lg-4 col-md-6"
-          itemShow="8"
+          itemShow="4"
           columnGap="row-15"
           parentClass="project-column-4"
         />
