@@ -46,7 +46,7 @@
     },
     {
         "id": 6,
-        "image": "/images/project/project-6.png",
+        "image": "/images/project/osg202.png",
         "title": "MAD102",
         "subtitle":"Discrete mathematics",
         "category": ["Xem nhiều nhất"],
@@ -55,7 +55,7 @@
     },
     {
         "id": 7,
-        "image": "/images/project/project-6.png",
+        "image": "/images/project/osg202.png",
         "title": "OSG202",
         "subtitle":"Discrete mathematics",
         "category": ["Gợi ý"],
@@ -64,7 +64,7 @@
     },
     {
         "id": 8,
-        "image": "/images/project/project-6.png",
+        "image": "/images/project/pro192.png",
         "title": "PRO192",
         "subtitle":"Object-Oriented Programming",
         "category": ["Gợi ý"],
@@ -73,7 +73,7 @@
     },
     {
         "id": 9,
-        "image": "/images/project/project-6.png",
+        "image": "/images/project/pro192.png",
         "title": "SSG103",
         "subtitle":"Communication and In-Group Working Skills",
         "category": ["Phổ biến"],
@@ -82,7 +82,7 @@
     },
     {
         "id": 10,
-        "image": "/images/project/project-6.png",
+        "image": "/images/project/nwc203c.png",
         "title": "NWC203c",
         "subtitle":"Computer Networking",
         "category": ["Gợi ý"],
