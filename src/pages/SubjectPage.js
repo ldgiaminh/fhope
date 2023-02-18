@@ -14,7 +14,7 @@ import TestimonialOne from "../component/testimonial/TestimonialOne";
 import SectionTitle from "../elements/section-title/SectionTitle";
 import ColorSwitcher from "../elements/switcher/ColorSwitcher";
 
-const SubjectPage = () => {
+const SubjectLists = () => {
   return (
     <>
       <SEO title="Creative Agency" />
@@ -40,4 +40,4 @@ const SubjectPage = () => {
   );
 };
 
-export default SubjectPage;
+export default SubjectLists;
