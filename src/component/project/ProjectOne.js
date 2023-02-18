@@ -2,52 +2,29 @@ import React, { useState, useEffect } from "react";
 import ProjectPropOne from "./itemProp/ProjectPropOne";
 
 import SectionTitle from "../../elements/section-title/SectionTitle";
-import ProjectData from "../../data/project/ProjectData.json";
+
+import ProjectDataNoneLogin from "../../data/project/ProjectDataNoneLogin.json";
 
 const filters = [
   {
     id: 1,
-    label: "Kỳ 1",
+    label: "Phổ biến",
   },
   {
     id: 2,
-    label: "Kỳ 2",
+    label: "Xem nhiều nhất",
   },
   {
     id: 3,
-    label: "Kỳ 3",
-  },
-  {
-    id: 4,
-    label: "Kỳ 4",
-  },
-  {
-    id: 5,
-    label: "Kỳ 5",
-  },
-  {
-    id: 6,
-    label: "Kỳ 6",
-  },
-  {
-    id: 7,
-    label: "Kỳ 7",
-  },
-  {
-    id: 8,
-    label: "Kỳ 8",
-  },
-  {
-    id: 9,
-    label: "Kỳ 9",
+    label: "Gợi ý",
   },
 ];
 
-const AllData = ProjectData;
+const AllData = ProjectDataNoneLogin;
 
 const ProjectOne = ({ parentClass, colSize, itemShow, columnGap }) => {
   const [getAllItems] = useState(AllData);
-  const [visiableProject] = useState(itemShow ? itemShow : 6);
+  const [visiableProject] = useState(itemShow ? itemShow : 10);
   const [activeFilter, setActiveFilter] = useState("");
   const [visibleItems, setVisibleItems] = useState([]);
 

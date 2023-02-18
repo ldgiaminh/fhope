@@ -3,19 +3,42 @@ import ProjectPropOne from "./itemProp/ProjectPropOne";
 
 import SectionTitle from "../../elements/section-title/SectionTitle";
 import ProjectData from "../../data/project/ProjectData.json";
-
 const filters = [
   {
     id: 1,
-    label: "Phố biến",
+    label: "Kỳ 1",
   },
   {
     id: 2,
-    label: "Xem nhiều nhất",
+    label: "Kỳ 2",
   },
   {
     id: 3,
-    label: "Gợi ý",
+    label: "Kỳ 3",
+  },
+  {
+    id: 4,
+    label: "Kỳ 4",
+  },
+  {
+    id: 5,
+    label: "Kỳ 5",
+  },
+  {
+    id: 6,
+    label: "Kỳ 6",
+  },
+  {
+    id: 7,
+    label: "Kỳ 7",
+  },
+  {
+    id: 8,
+    label: "Kỳ 8",
+  },
+  {
+    id: 9,
+    label: "Kỳ 9",
   },
 ];
 
