@@ -8,19 +8,19 @@ const BlogSidebar = () => {
     return (
         <div className="axil-sidebar">
             <div className="widget widget-search">
-                <h4 className="widget-title">Search</h4>
+                <h4 className="widget-title">Tìm kiếm</h4>
                 <form action="#" className="blog-search">
-                    <input type="text" placeholder="Search…" />
+                    <input type="text" placeholder="Tìm kiếm..." />
                     <button className="search-button"><FaSearch /></button>
                 </form>
             </div>
             <div className="widget widget-categories">
-                <h4 className="widget-title">Categories</h4>
+                <h4 className="widget-title">Phân loại tin</h4>
                 <WidgetCategory />
             </div>
             <div className="widget widge-social-share">
                 <div className="blog-share">
-                    <h5 className="title">Follow:</h5>
+                    <h5 className="title">Theo dõi:</h5>
                     <ul className="social-list list-unstyled">
                         <li><a href="https://facebook.com/"><FaFacebookF /></a></li>
                         <li><a href="https://twitter.com/"><FaTwitter /></a></li>
@@ -32,12 +32,12 @@ const BlogSidebar = () => {
                 </div>
             </div>
             <div className="widget widget-recent-post">
-                <h4 className="widget-title">Recent post</h4>
+                <h4 className="widget-title">Bài viết mới</h4>
                 <WidgetPost />
             </div>
             <div className="widget widget-banner-ad">
                 <Link to="#">
-                    <img src={process.env.PUBLIC_URL + "/images/banner/widget-banner.png"} alt="banner" />
+                    <img src={process.env.PUBLIC_URL + "/images/banner/ads1.png"} alt="banner" />
                 </Link>
             </div>
         </div>

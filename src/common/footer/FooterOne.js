@@ -89,18 +89,18 @@ const FooterOne = ({ parentClass }) => {
                       <ul className="list-unstyled">
                         <li>
                           <Link to={process.env.PUBLIC_URL + "/contact"}>
-                            Contact
+                            Liên hệ
                           </Link>
                         </li>
                         <li>
                           {" "}
                           <Link to={process.env.PUBLIC_URL + "/privacy-policy"}>
-                            Privacy Policy
+                            Chính sách
                           </Link>
                         </li>
                         <li>
                           <Link to={process.env.PUBLIC_URL + "/terms-use"}>
-                            Terms of Use
+                            Điều khoản
                           </Link>
                         </li>{" "}
                         <div className="footer-top"></div>
