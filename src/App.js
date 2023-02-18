@@ -46,10 +46,11 @@ import ErrorPage from "./pages/404";
 import ComingSoon from "./pages/ComingSoon";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfUse from "./pages/TermsOfUse";
+import SubjectPage from "./pages/SubjectPage";
+import Blog from "./pages/Blog";
 
 // Css Import
 import "./assets/scss/app.scss";
-import SubjectList from "./pages/SubjectList";
 
 const App = () => {
   return (
@@ -197,8 +198,9 @@ const App = () => {
           />
           <Route
             path={process.env.PUBLIC_URL + "/subject-list"}
-            element={<SubjectList />}
+            element={<SubjectPage />}
           />
+          <Route path={process.env.PUBLIC_URL + "/blog"} element={<Blog />} />
         </Routes>
       </ScrollToTop>
     </Router>

@@ -8,13 +8,13 @@ import BlogOne from "../component/blog/BlogOne";
 import BrandOne from "../component/brand/BrandOne";
 import CounterUpOne from "../component/counterup/CounterUpOne";
 import CtaLayoutOne from "../component/cta/CtaLayoutOne";
-import ProjectOne from "../component/project/ProjectOne";
+import SubjectList from "../component/project/SubjectList";
 import ServicePropOne from "../component/service/ServicePropOne";
 import TestimonialOne from "../component/testimonial/TestimonialOne";
 import SectionTitle from "../elements/section-title/SectionTitle";
 import ColorSwitcher from "../elements/switcher/ColorSwitcher";
 
-const SubjectList = () => {
+const SubjectPage = () => {
   return (
     <>
       <SEO title="Creative Agency" />
@@ -23,7 +23,7 @@ const SubjectList = () => {
         <HeaderLogin />
         {/* <BannerTwo /> */}
 
-        <ProjectOne
+        <SubjectList
           colSize="col-xl-3 col-lg-4 col-md-6"
           itemShow="8"
           columnGap="row-15"
@@ -40,4 +40,4 @@ const SubjectList = () => {
   );
 };
 
-export default SubjectList;
+export default SubjectPage;

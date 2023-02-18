@@ -25,10 +25,10 @@ const SplashHeader = () => {
                     <a href="#splash-demo">Tài liệu</a>
                   </li>
                   <li>
-                    <a href="#splsh-features">Bài viết</a>
+                    <a href="/blog">Bài viết</a>
                   </li>
                   <li>
-                    <a href="#splash-why-choose">Về chúng tôi</a>
+                    <a href="/about-us">Về chúng tôi</a>
                   </li>
                 </ul>
               </nav>

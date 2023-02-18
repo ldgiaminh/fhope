@@ -24,7 +24,7 @@ const BannerThree = () => {
                 animateOnce={true}
                 delay={200}
               >
-                <h1 className="title">CHÀO MỪNG ĐẾN VỚI "F-HOPE"</h1>
+                <h1 className="title">Tổng hợp các tin tức</h1>
               </AnimationOnScroll>
               <AnimationOnScroll
                 animateIn="slideInUp"
@@ -39,7 +39,7 @@ const BannerThree = () => {
                   sinh viên.
                 </p>
               </AnimationOnScroll>
-              <AnimationOnScroll
+              {/* <AnimationOnScroll
                 animateIn="slideInUp"
                 duration={1}
                 animateOnce={true}
@@ -53,7 +53,7 @@ const BannerThree = () => {
                     Về chúng tôi
                   </Link>
                 </div>
-              </AnimationOnScroll>
+              </AnimationOnScroll> */}
             </div>
           </div>
           <div className="col-lg-6">
@@ -67,7 +67,9 @@ const BannerThree = () => {
                 >
                   <Tilty perspective={2000} reset={false}>
                     <img
-                      src={process.env.PUBLIC_URL + "/images/banner/window.png"}
+                      src={
+                        process.env.PUBLIC_URL + "/images/banner/working.png"
+                      }
                       alt="Shape"
                     />
                   </Tilty>
@@ -104,7 +106,7 @@ const BannerThree = () => {
         </li>
         <li className="shape shape-6">
           <img
-            src={process.env.PUBLIC_URL + "/images/others/bubble-46.png"}
+            src={process.env.PUBLIC_URL + "/images/others/bubble-37.png"}
             alt="Bubble"
           />
         </li>
