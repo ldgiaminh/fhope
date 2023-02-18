@@ -13,6 +13,7 @@ import ColorSwitcher from "../elements/switcher/ColorSwitcher";
 import SEO from "../common/SEO";
 import WidgetCategory from "../component/blog/widget/WidgetCategory";
 import BreadCrumbTwo from "../elements/breadcrumb/BreadCrumbTwo";
+import WidgetMooc from "../component/blog/widget/WidgetMooc";
 
 const allProjectData = ProjectData;
 
@@ -62,7 +63,7 @@ const SubjectDetails = () => {
                     </p>
                   </div>
                   <div className="widget widget-categories">
-                    <WidgetCategory />
+                    <WidgetMooc />
                   </div>
                 </div>
               </div>

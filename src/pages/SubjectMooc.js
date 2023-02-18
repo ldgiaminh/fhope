@@ -5,14 +5,14 @@ import HeaderOne from "../common/header/HeaderOne";
 import SEO from "../common/SEO";
 import BlogGridTwo from "../component/blog/BlogGridTwo";
 import CtaLayoutOne from "../component/cta/CtaLayoutOne";
-import BlogData from "../data/blog/BlogData.json";
+import MoocData from "../data/project/MoocData.json";
 import BreadCrumbOne from "../elements/breadcrumb/BreadCrumbOne";
 import ColorSwitcher from "../elements/switcher/ColorSwitcher";
 import { slugify } from "../utils";
 
-const allBlogData = BlogData;
+const allBlogData = MoocData;
 
-const BlogCategory = () => {
+const SubjectMooc = () => {
   const params = useParams();
   const blogSlug = params.slug;
 
@@ -23,7 +23,7 @@ const BlogCategory = () => {
   return (
     <>
       <SEO title="Category" />
-      <ColorSwitcher />
+      {/* <ColorSwitcher /> */}
       <main className="main-wrapper">
         <HeaderOne />
         <BreadCrumbOne title="Category" page="Blog" />
@@ -41,4 +41,4 @@ const BlogCategory = () => {
   );
 };
 
-export default BlogCategory;
+export default SubjectMooc;

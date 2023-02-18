@@ -50,6 +50,7 @@ import SubjectPage from "./pages/SubjectPage";
 
 // Css Import
 import "./assets/scss/app.scss";
+import SubjectMooc from "./pages/SubjectMooc";
 
 const App = () => {
   return (
@@ -198,6 +199,10 @@ const App = () => {
           <Route
             path={process.env.PUBLIC_URL + "/subject-list"}
             element={<SubjectPage />}
+          />
+          <Route
+            path={process.env.PUBLIC_URL + "/subject-category/:slug"}
+            element={<SubjectMooc />}
           />
         </Routes>
       </ScrollToTop>
