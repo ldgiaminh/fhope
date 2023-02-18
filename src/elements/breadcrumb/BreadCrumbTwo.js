@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const BreadCrumbTwo = ({ title, page }) => {
+const BreadCrumbTwo = ({ title, page, subtitle }) => {
   return (
     <div className="breadcrum-area">
       <div className="container">
@@ -21,6 +21,10 @@ const BreadCrumbTwo = ({ title, page }) => {
             className="title h2"
             dangerouslySetInnerHTML={{ __html: title }}
           ></h1>
+          <h5
+            className="h5"
+            dangerouslySetInnerHTML={{ __html: subtitle }}
+          ></h5>
         </div>
       </div>
       <ul className="shape-group-8 list-unstyled">

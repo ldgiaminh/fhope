@@ -39,6 +39,11 @@ const OffcanvasMenu = ({ offcanvasShow, offcanvasHide }) => {
               <li>
                 <Link to={process.env.PUBLIC_URL + "/"}>Trang cá nhân</Link>
               </li>
+              <li>
+                <Link to={process.env.PUBLIC_URL + "/become-buyer"}>
+                  Mở bán tài liệu
+                </Link>
+              </li>
               {/* <li>
                 <Link to={process.env.PUBLIC_URL + "/creative-agency"}>
                   Creative Agency

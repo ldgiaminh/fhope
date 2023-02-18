@@ -52,7 +52,11 @@ const ProjectOne = ({ parentClass, colSize, itemShow, columnGap }) => {
 
   useEffect(() => {
     setActiveFilter(filters[0].label);
-    setVisibleItems(getAllItems.filter((item) => item.id <= visiableProject));
+    setVisibleItems(
+      getAllItems.filter(
+        (item) => item.category == "Kỳ 1" && item.id <= visiableProject
+      )
+    );
   }, []);
 
   const handleChange = (e) => {
@@ -62,18 +66,27 @@ const ProjectOne = ({ parentClass, colSize, itemShow, columnGap }) => {
     setActiveFilter(target);
 
     let tempData = [];
-    if (target === filters[0].label) {
-      tempData = getAllItems.filter((data) => data.id <= visiableProject);
-    } else {
-      for (let i = 0; i < getAllItems.length; i++) {
-        const element = getAllItems[i];
-        let categories = element["category"];
+    // if (target === filters[0].label) {
+    //   tempData = getAllItems.filter((data) => data.id <= visiableProject);
+    // } else {
+    //   for (let i = 0; i < getAllItems.length; i++) {
+    //     const element = getAllItems[i];
+    //     let categories = element["category"];
 
-        if (categories.includes(target)) {
-          tempData.push(element);
-        }
+    //     if (categories.includes(target)) {
+    //       tempData.push(element);
+    //     }
+    //   }
+    // }
+    for (let i = 0; i < getAllItems.length; i++) {
+      const element = getAllItems[i];
+      let categories = element["category"];
+
+      if (categories.includes(target)) {
+        tempData.push(element);
       }
     }
+
     setVisibleItems(tempData);
   };
 

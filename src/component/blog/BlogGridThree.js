@@ -1,7 +1,9 @@
 import React from "react";
+import DownloadLink from "react-download-link";
+import File from "../../data/assignment/assignment.txt";
 import { Link } from "react-router-dom";
 
-const BlogGridTwo = ({ data, colSize }) => {
+const BlogGridThree = ({ data, colSize }) => {
   return (
     <>
       {data.map((blog) => (
@@ -30,12 +32,13 @@ const BlogGridTwo = ({ data, colSize }) => {
               </Link>
             </h5>
             <p>{blog.excerpt}</p>
-            <Link
+            <DownloadLink
               className="axil-btn btn-borderd"
-              to={process.env.PUBLIC_URL + `/blog-details/${blog.id}`}
-            >
-              Read More
-            </Link>
+              style={{ color: "text-primary" }}
+              label="Tải về"
+              filename="assignment.txt"
+              exportFile={() => File}
+            />
           </div>
         </div>
       ))}
@@ -43,4 +46,4 @@ const BlogGridTwo = ({ data, colSize }) => {
   );
 };
 
-export default BlogGridTwo;
+export default BlogGridThree;

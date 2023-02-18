@@ -14,6 +14,8 @@ import SEO from "../common/SEO";
 import WidgetCategory from "../component/blog/widget/WidgetCategory";
 import BreadCrumbTwo from "../elements/breadcrumb/BreadCrumbTwo";
 import WidgetMooc from "../component/blog/widget/WidgetMooc";
+import HeaderTwo from "../common/header/HeaderTwo";
+import HeaderLogin from "../common/header/HeaderLogin";
 
 const allProjectData = ProjectData;
 
@@ -31,8 +33,12 @@ const SubjectDetails = () => {
       <SEO title="Project Details" />
       {/* <ColorSwitcher /> */}
       <main className="main-wrapper">
-        <HeaderOne />
-        <BreadCrumbTwo title={detailsProject.title} page="Bài viết" />
+        <HeaderLogin />
+        <BreadCrumbTwo
+          title={detailsProject.title}
+          page={detailsProject.title}
+          subtitle={detailsProject.subtitle}
+        />
         <section className="section-padding single-portfolio-area">
           <div className="container">
             <div className="row">
