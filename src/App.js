@@ -49,6 +49,7 @@ import TermsOfUse from "./pages/TermsOfUse";
 
 // Css Import
 import "./assets/scss/app.scss";
+import SubjectList from "./pages/SubjectList";
 
 const App = () => {
   return (
@@ -193,6 +194,10 @@ const App = () => {
           <Route
             path={process.env.PUBLIC_URL + "/terms-use"}
             element={<TermsOfUse />}
+          />
+          <Route
+            path={process.env.PUBLIC_URL + "/subject-list"}
+            element={<SubjectList />}
           />
         </Routes>
       </ScrollToTop>

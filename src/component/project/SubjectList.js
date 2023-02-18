@@ -7,21 +7,21 @@ import ProjectData from "../../data/project/ProjectData.json";
 const filters = [
   {
     id: 1,
-    label: "Phố biến",
+    label: "Kỳ 1",
   },
   {
     id: 2,
-    label: "Xem nhiều nhất",
+    label: "Kỳ 2",
   },
   {
     id: 3,
-    label: "Gợi ý",
+    label: "Kỳ 3",
   },
 ];
 
 const AllData = ProjectData;
 
-const ProjectOne = ({ parentClass, colSize, itemShow, columnGap }) => {
+const SubjectList = ({ parentClass, colSize, itemShow, columnGap }) => {
   const [getAllItems] = useState(AllData);
   const [visiableProject] = useState(itemShow ? itemShow : 6);
   const [activeFilter, setActiveFilter] = useState("");
@@ -113,4 +113,4 @@ const ProjectOne = ({ parentClass, colSize, itemShow, columnGap }) => {
   );
 };
 
-export default ProjectOne;
+export default SubjectList;

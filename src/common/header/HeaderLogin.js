@@ -6,7 +6,7 @@ import StickyHeader from "./StickyHeader";
 import SwitcherHeader from "../../elements/switcher/SwitcherHeader";
 import MobileMenu from "./MobileMenu";
 
-const HeaderOne = () => {
+const HeaderLogin = () => {
   const [showOffcanvas, setShowOffcanvas] = useState(false);
 
   const OffcanvasHandleClose = () => setShowOffcanvas(false);
@@ -84,4 +84,4 @@ const HeaderOne = () => {
   );
 };
 
-export default HeaderOne;
+export default HeaderLogin;
