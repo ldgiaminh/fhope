@@ -47,7 +47,6 @@ import ComingSoon from "./pages/ComingSoon";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfUse from "./pages/TermsOfUse";
 import SubjectPage from "./pages/SubjectPage";
-import Blog from "./pages/Blog";
 
 // Css Import
 import "./assets/scss/app.scss";
@@ -200,7 +199,6 @@ const App = () => {
             path={process.env.PUBLIC_URL + "/subject-list"}
             element={<SubjectPage />}
           />
-          <Route path={process.env.PUBLIC_URL + "/blog"} element={<Blog />} />
         </Routes>
       </ScrollToTop>
     </Router>
