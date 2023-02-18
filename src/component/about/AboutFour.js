@@ -17,40 +17,12 @@ const AboutFour = () => {
                     <div className="col-xl-5 col-lg-6">
                         <div className="case-study-featured">
                         <div className="section-heading heading-left">
-                            <span className="subtitle">Who we are</span>
-                            <h2 className="title">Building software for world changers</h2>
-                            <p>Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis.</p>
-                            <p>Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.</p>
-                            <Link to="#" className="axil-btn btn-fill-primary btn-large">Read More</Link>
+                            <span className="subtitle"></span>
+                            <h2 className="title">Chúng tôi tạo ra WEB này nhằm</h2>
+                            <p>để đáp ứng như cầu của tất cả các bạn sinh viên trường FPT nói chung cũng như các bạn cần những tài liệu của chuyên nghành nói riêng. FHope được tạo ra nhằm mang tên ngôi trường đã nâng tầm trang web của chúng tôi, còn “HOPE” mang hy vọng cho các bạn có thể vượt ra được những vấn đề cũng như khó khăn mà các bạn đang gặp phải.</p>
+                            <p>Ngày 17/2/2023, Web chúng tôi chính thức được tạo ra và được nhà trường cho lưu thông rộng rãi cả trong trường và ngoài trường. Nếu các bạn có muốn tham gia cũng như trở thành thành viên thì cũng rất dễ dàng vì chúng tôi sẽ luôn cần những nguồn nhân lực tốt để giúp cho web phát triển.</p>
                         </div>
-                        <div className="case-study-counterup">
-                            <div className="single-counterup">
-                            <h2 className="count-number">
-                            <TrackVisibility once>
-                                {({isVisible}) => (
-                                    <span className="number count">
-                                        {isVisible ? <CountUp end="10" duration={1} /> : null}
-                                    </span>
-                                )}  
-                            </TrackVisibility>
-                            <span className="symbol">+</span>
-                            </h2>
-                            <span className="counter-title">Years on the market</span>
-                            </div>
-                            <div className="single-counterup">
-                            <h2 className="count-number">
-                            <TrackVisibility once>
-                                {({isVisible}) => (
-                                    <span className="number count">
-                                        {isVisible ? <CountUp end="1500" duration={1} /> : null}
-                                    </span>
-                                )}  
-                            </TrackVisibility>
-                            <span className="symbol">+</span>
-                            </h2>
-                            <span className="counter-title">Projects delivered so far</span>
-                            </div>
-                        </div>
+                     
                         </div>
                     </div>
                 </div>

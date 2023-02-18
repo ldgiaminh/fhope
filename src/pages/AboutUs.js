@@ -20,14 +20,15 @@ const AboutUs = () => {
             <main className="main-wrapper">
                 <HeaderOne />
                 <BcrumbBannerOne 
-                title="One of the fastest growing agency"
-                paragraph ="We design and develop web and mobile applications for our clients worldwide."
+                title="Về chúng tôi"
+                paragraph ="<b>Bạn đã bao giờ tự hỏi những tài liệu học tập bạn cần sẽ kiếm ở đâu chưa ? </b> 
+                </br>Đó là câu hỏi mà câu trả lời nó sẽ là thành quả của 
+                </br>chúng tôi. Web học tập hỗ trợ sinh viên FPT cũng như những ai cần source học cho chuyên nghành của mình.
+                <br>Tài liệu có thể chia thành nhiều loại khác biệt, ở đâu chúng tôi sẽ có đầy đủ những tài liệu mà các bạn cần."
                 styleClass="thumbnail-4"
                 mainThumb="/images/banner/banner-thumb-3.png"
                 />
                 <AboutFour />
-                <AboutThree />
-                <AboutFive />
                 <ProcessOne />
                 <CtaLayoutOne />
                 <FooterOne parentClass="" />
