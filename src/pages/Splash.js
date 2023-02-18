@@ -72,7 +72,7 @@ const Splash = () => {
 
         <ProjectOne
           colSize="col-xl-3 col-lg-4 col-md-6"
-          itemShow="4"
+          itemShow="5"
           columnGap="row-15"
           parentClass="project-column-4"
         />
