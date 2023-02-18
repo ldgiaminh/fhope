@@ -7,14 +7,8 @@ const SplashCta = () => {
         <div className="call-to-action">
           <div className="section-heading heading-light">
             <h2 className="title">
-              Let’s Start <br /> Your Business Today!
+              Đăng nhập <br /> để đồng hành cùng F-HOPE
             </h2>
-            <p>
-              Missing something? Just tell us what you need by{" "}
-              <a href="https://support.axilthemes.com/support/">
-                requesting us here.
-              </a>{" "}
-            </p>
             <a
               target="_blank"
               rel="noopener noreferrer"

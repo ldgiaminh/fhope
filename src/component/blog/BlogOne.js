@@ -7,9 +7,9 @@ const BlogOne = () => {
     <div className="section section-padding-equal">
       <div className="container">
         <SectionTitle
-          subtitle="What's Going On"
-          title="Latest stories"
-          description="News From Abstrak And Around The World Of Web Design And Complete Solution of Online Digital Marketing"
+          subtitle=""
+          title="Một số bài viết hữu ích về nội dung học tập"
+          description=""
           textAlignment=""
           textColor=""
         />

@@ -6,37 +6,24 @@ import { slugify } from '../../utils';
 
 const getServiceData = ServiceData;
 
-const FooterOne = ({parentClass}) => {
-    
+const FooterOne = ({ parentClass }) => {
+
     return (
         <footer className={`footer-area ${parentClass}`}>
             <div className="container">
-                <div className="footer-top">
-                    <div className="footer-social-link">
-                        <ul className="list-unstyled">
-                            <li><Link to="https://facebook.com/"><FaFacebookF /></Link></li>
-                            <li><Link to="https://twitter.com/"><FaTwitter /></Link></li>
-                            <li><Link to="https://www.pinterest.com/"><FaPinterestP /></Link></li>
-                            <li><Link to="https://www.linkedin.com/"><FaLinkedin /></Link></li>
-                            <li><Link to="https://www.instagram.com/"><FaInstagram /></Link></li>
-                            <li><Link to="https://vimeo.com/"><FaVimeoV /></Link></li>
-                            <li><Link to="https://dribbble.com/"><FaDribbble /></Link></li>
-                            <li><Link to="https://www.behance.net/"><FaBehance /></Link></li>
-                        </ul>
-                    </div>
-                </div>
+
                 <div className="footer-main">
                     <div className="row">
                         <div className="col-xl-6 col-lg-5">
                             <div className="footer-widget border-end">
                                 <div className="footer-newsletter">
-                                    <h2 className="title">Get in touch!</h2>
-                                    <p>Fusce varius, dolor tempor interdum tristique, dui urna bib endum magna, ut ullamcorper purus</p>
+                                    <h2 className="title">Trợ giúp</h2>
+                                    <p>Để lại thông tin của bạn</p>
                                     <form>
                                         <div className="input-group">
                                             <span className="mail-icon"><FaEnvelopeOpen /> </span>
-                                            <input type="email" className="form-control" placeholder="Email address" />
-                                            <button className="subscribe-btn" type="submit">Subscribe</button>
+                                            <input type="email" className="form-control" placeholder="Để lại thông tin liên lạc" />
+                                            <button className="subscribe-btn" type="submit">Gửi</button>
                                         </div>
                                     </form>
                                 </div>
@@ -46,7 +33,7 @@ const FooterOne = ({parentClass}) => {
                             <div className="row">
                                 <div className="col-sm-6">
                                     <div className="footer-widget">
-                                        <h6 className="widget-title">Services</h6>
+                                        <h6 className="widget-title">Dịch vụ</h6>
                                         <div className="footer-menu-link">
                                             <ul className="list-unstyled">
                                                 {getServiceData.slice(0, 6).map((data, index) => (
@@ -60,7 +47,7 @@ const FooterOne = ({parentClass}) => {
                                 </div>
                                 <div className="col-sm-3">
                                     <div className="footer-widget">
-                                        <h6 className="widget-title">Resourses</h6>
+                                        <h6 className="widget-title">Tài nguyên</h6>
                                         <div className="footer-menu-link">
                                             <ul className="list-unstyled">
                                                 <li><Link to={process.env.PUBLIC_URL + "/blog-grid"}>Blog</Link></li>
@@ -72,12 +59,18 @@ const FooterOne = ({parentClass}) => {
                                 </div>
                                 <div className="col-sm-3">
                                     <div className="footer-widget">
-                                        <h6 className="widget-title">Support</h6>
+                                        <h6 className="widget-title">Hỗ trợ</h6>
                                         <div className="footer-menu-link">
                                             <ul className="list-unstyled">
                                                 <li><Link to={process.env.PUBLIC_URL + "/contact"}>Contact</Link></li>
                                                 <li> <Link to={process.env.PUBLIC_URL + "/privacy-policy"}>Privacy Policy</Link></li>
-                                                <li><Link to={process.env.PUBLIC_URL + "/terms-use"}>Terms of Use</Link></li>
+                                                <li><Link to={process.env.PUBLIC_URL + "/terms-use"}>Terms of Use</Link></li> <div className="footer-top">
+                                                    <div className="footer-social-link">
+                                                        <ul className="list-unstyled">
+                                                            <li><Link to="https://www.facebook.com/profile.php?id=100089981277003"><FaFacebookF /></Link></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
                                             </ul>
                                         </div>
                                     </div>
@@ -86,7 +79,7 @@ const FooterOne = ({parentClass}) => {
                         </div>
                     </div>
                 </div>
-                <div className="footer-bottom"> 
+                <div className="footer-bottom">
                     <div className="row">
                         <div className="col-md-6">
                             <div className="footer-copyright">
@@ -98,6 +91,7 @@ const FooterOne = ({parentClass}) => {
                                 <ul className="list-unstyled">
                                     <li><Link to={process.env.PUBLIC_URL + "/privacy-policy"}>Privacy Policy</Link></li>
                                     <li><Link to={process.env.PUBLIC_URL + "/terms-use"}>Terms of Use</Link></li>
+
                                 </ul>
                             </div>
                         </div>

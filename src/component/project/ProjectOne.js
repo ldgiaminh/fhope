@@ -7,7 +7,7 @@ import ProjectData from "../../data/project/ProjectData.json";
 const filters = [
   {
     id: 1,
-    label: "Phố biến",
+    label: "Phổ biến",
   },
   {
     id: 2,

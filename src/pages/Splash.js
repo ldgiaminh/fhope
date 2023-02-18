@@ -43,7 +43,7 @@ const Splash = () => {
               <ServicePropOne
                 colSize="col-xl-4 col-md-6"
                 serviceStyle=""
-                itemShow="6"
+                itemShow="3"
               />
             </div>
           </div>
