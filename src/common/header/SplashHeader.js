@@ -28,7 +28,7 @@ const SplashHeader = () => {
                     <a href="/blog-grid">Bài viết</a>
                   </li>
                   <li>
-                    <a href="/about-us">Về chúng tôi</a>
+                    <a href="/contact">Về chúng tôi</a>
                   </li>
                 </ul>
               </nav>

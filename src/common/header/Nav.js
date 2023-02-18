@@ -192,7 +192,7 @@ const Nav = () => {
           <Link to={process.env.PUBLIC_URL + "/"}>Tài liệu</Link>
         </li>
         <li>
-          <Link to={process.env.PUBLIC_URL + "/blog"}>Bài viết</Link>
+          <Link to={process.env.PUBLIC_URL + "/blog-grid"}>Bài viết</Link>
         </li>
         <li>
           <Link to={process.env.PUBLIC_URL + "/contact"}>Về chúng tôi</Link>
