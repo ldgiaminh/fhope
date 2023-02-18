@@ -7,21 +7,21 @@ import ProjectData from "../../data/project/ProjectData.json";
 const filters = [
   {
     id: 1,
-    label: "Kỳ 1",
+    label: "Phố biến",
   },
   {
     id: 2,
-    label: "Kỳ 2",
+    label: "Xem nhiều nhất",
   },
   {
     id: 3,
-    label: "Kỳ 3",
+    label: "Gợi ý",
   },
 ];
 
 const AllData = ProjectData;
 
-const SubjectList = ({ parentClass, colSize, itemShow, columnGap }) => {
+const ProjectOne = ({ parentClass, colSize, itemShow, columnGap }) => {
   const [getAllItems] = useState(AllData);
   const [visiableProject] = useState(itemShow ? itemShow : 6);
   const [activeFilter, setActiveFilter] = useState("");
@@ -64,12 +64,11 @@ const SubjectList = ({ parentClass, colSize, itemShow, columnGap }) => {
         <div className="container">
           <SectionTitle
             subtitle="Chúng tôi đã chuẩn bị sẵn cho bạn những tài liệu mà bạn cần tìm."
-            title="Mục tài liệu <br>
-                        môn học"
+            title="Mục tài liệu môn học"
             textAlignment="heading-left mb--40"
             textColor=""
           />
-          <div className="isotope-button isotope-project-btn">
+          <div className="isotope-button isotope-subject-btn">
             {filters.map((filter) => (
               <button
                 onClick={handleChange}
@@ -113,4 +112,4 @@ const SubjectList = ({ parentClass, colSize, itemShow, columnGap }) => {
   );
 };
 
-export default SubjectList;
+export default ProjectOne;

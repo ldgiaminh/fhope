@@ -10,7 +10,7 @@ const PropOne = ({ projectStyle, portfolio }) => {
           <Link
             to={
               process.env.PUBLIC_URL +
-              `/project-details/${slugify(portfolio.title)}`
+              `/subject-details/${slugify(portfolio.title)}`
             }
           >
             <img src={process.env.PUBLIC_URL + portfolio.image} alt="icon" />
@@ -21,7 +21,7 @@ const PropOne = ({ projectStyle, portfolio }) => {
             <Link
               to={
                 process.env.PUBLIC_URL +
-                `/project-details/${slugify(portfolio.title)}`
+                `/subject-details/${slugify(portfolio.title)}`
               }
             >
               {portfolio.title}

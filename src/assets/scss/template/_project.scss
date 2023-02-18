@@ -204,6 +204,51 @@
   }
 }
 
+.isotope-subject-btn {
+  text-align: center;
+  margin-bottom: 55px;
+  button {
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--color-body);
+    font-family: var(--font-primary);
+    margin-right: 100px;
+    padding: 8px 0;
+    position: relative;
+    @media #{$large-mobile} {
+      margin-right: 50px;
+      font-size: 18px;
+    }
+    &:focus-visible {
+      outline: none;
+    }
+    &:after {
+      content: "";
+      height: 2px;
+      width: 100%;
+      background-color: var(--color-primary);
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      visibility: hidden;
+      opacity: 0;
+      transition: var(--transition);
+    }
+    &.is-checked {
+      color: var(--color-dark);
+      &:after {
+        visibility: visible;
+        opacity: 1;
+      }
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
 .single-portfolio-area {
   .why-choose-us {
     @media #{$md-layout} {

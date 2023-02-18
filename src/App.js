@@ -14,7 +14,7 @@ import CorporateAgency from "./pages/CorporateAgency";
 import BlogGridView from "./pages/BlogGrid";
 import BlogCategory from "./pages/Category";
 import BlogArchive from "./pages/Archive";
-import SubjectDetails from "./pages/BlogDetails";
+import BlogDetails from "./pages/BlogDetails";
 
 // Service
 import ServiceOne from "./pages/ServiceOne";
@@ -27,7 +27,7 @@ import ProjectGridTwo from "./pages/ProjectGridTwo";
 import ProjectGridThree from "./pages/ProjectGridThree";
 import ProjectGridFive from "./pages/ProjectGridFive";
 import ProjectGridFour from "./pages/ProjectGridFour";
-import SubjectDetail from "./pages/SubjectDetails";
+import SubjectDetails from "./pages/SubjectDetails";
 
 // Pages
 import Splash from "./pages/Splash";
@@ -133,8 +133,8 @@ const App = () => {
             element={<ProjectGridFive />}
           />
           <Route
-            path={process.env.PUBLIC_URL + "/project-details/:slug"}
-            element={<SubjectDetail />}
+            path={process.env.PUBLIC_URL + "/subject-details/:slug"}
+            element={<SubjectDetails />}
           />
 
           {/* Pages  */}
