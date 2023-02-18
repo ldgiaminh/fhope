@@ -9,13 +9,6 @@ const ProcessOne = () => {
     return (
         
         <div className="section section-padding bg-color-light pb--70">
-            <SectionTitle 
-                subtitle="Process"
-                title="Our logo design process"
-                description="Our comprehensive logo design strategy ensures a perfectly crafted logo for your business."
-                textAlignment=""
-                textColor="mb--90"
-            />
             <div className="container">
                 {getProcesstData.map((data) => (
                     <div key={data.id} className={`process-work ${(data.id % 2  === 0) ? "content-reverse" : ""}`}>

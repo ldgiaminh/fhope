@@ -22,7 +22,7 @@ const FooterOne = ({ parentClass }) => {
                                     <form>
                                         <div className="input-group">
                                             <span className="mail-icon"><FaEnvelopeOpen /> </span>
-                                            <input type="email" className="form-control" placeholder="Để lại thông tin liên lạc" />
+                                            <input type="email" className="form-control" placeholder="Nhập Email..." />
                                             <button className="subscribe-btn" type="submit">Gửi</button>
                                         </div>
                                     </form>
@@ -36,7 +36,7 @@ const FooterOne = ({ parentClass }) => {
                                         <h6 className="widget-title">Dịch vụ</h6>
                                         <div className="footer-menu-link">
                                             <ul className="list-unstyled">
-                                                {getServiceData.slice(0, 6).map((data, index) => (
+                                                {getServiceData.slice(0, 3).map((data, index) => (
                                                     <li key={index}>
                                                         <Link to={process.env.PUBLIC_URL + `/service-details/${slugify(data.title)}`}>{data.title}</Link>
                                                     </li>
@@ -51,8 +51,6 @@ const FooterOne = ({ parentClass }) => {
                                         <div className="footer-menu-link">
                                             <ul className="list-unstyled">
                                                 <li><Link to={process.env.PUBLIC_URL + "/blog-grid"}>Blog</Link></li>
-                                                <li> <Link to={process.env.PUBLIC_URL + "/case-study"}>Case Studies</Link></li>
-                                                <li><Link to={process.env.PUBLIC_URL + "/project-grid-one"}>Portfolio</Link></li>
                                             </ul>
                                         </div>
                                     </div>

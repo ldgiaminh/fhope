@@ -10,7 +10,7 @@ const BcrumbBannerOne = ({title, paragraph, styleClass, mainThumb}) => {
                     <p dangerouslySetInnerHTML={{__html: paragraph}}></p>
                 </div>
                 <div className={`banner-thumbnail ${styleClass}`}>
-                    <Tilty perspective={2000} reset={false}>
+                    <Tilty perspective={20000} reset={false}>
                         <img src={process.env.PUBLIC_URL + mainThumb} alt="Illustration" />
                     </Tilty>
                 </div>

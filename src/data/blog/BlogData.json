@@ -19,7 +19,7 @@
             "<p>    </p>"
         ],
         "features_img": ["/images/blog/blog-8.png", "/images/blog/blog-9.png"],
-        "author_name": "Theresa Underwood",
+        "author_name": "Admin",
         "author_avatar": "images/blog/author-1.png",
         "author_para": "Email is a crucial channel in any marketing mix, and never has this been truer than for today’s entrepreneur. Curious what to say.",
         "social": [
@@ -39,9 +39,9 @@
     {
         "id": 2,
         "title": "How To Use a Remarketing Strategy To Get More",
-        "post_date": "Mar 10, 2022",
-        "read_time": "9 min to read",
-        "thumb": "images/blog/thumb_1.png",
+        "post_date": "",
+        "read_time": "",
+        "thumb": "images/blog/download.png",
         "large_thumb": ["images/blog/large_thumb_1.png", "images/blog/large_thumb_2.png", "images/blog/large_thumb_3.png"],
         "category": "Agency News",
         "format": "gallery",
@@ -58,7 +58,7 @@
             "<p>Email is a crucial channel in any marketing mix, and never has this been truer than for today’s entrepreneur. Curious what to say? How to say it? How often to hit “send”? Each bite-sized lesson delivers core concepts, guiding questions, and tactical how-to resources.</p>"
         ],
         "features_img": ["/images/blog/blog-8.png", "/images/blog/blog-9.png"],
-        "author_name": "Theresa Underwood",
+        "author_name": "Admin",
         "author_avatar": "images/blog/author-1.png",
         "author_para": "Email is a crucial channel in any marketing mix, and never has this been truer than for today’s entrepreneur. Curious what to say.",
         "social": [
@@ -78,9 +78,9 @@
     {
         "id": 3,
         "title": "SEO Statistics You Should Know in 2022",
-        "post_date": "Apr 10, 2022",
-        "read_time": "9 min to read",
-        "thumb": "images/blog/thumb_2.png",
+        "post_date": "",
+        "read_time": "",
+        "thumb": "images/blog/download.png",
         "large_thumb": "images/blog/large_thumb_2.png",
         "category": "Information technology",
         "format": "video",
