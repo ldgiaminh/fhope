@@ -65,7 +65,7 @@ const FormContribu = () => {
             <label>Chuyên ngành</label>
             <input
               disable
-              value = "Kỹ thuật phần mềm"
+              value="Kỹ thuật phần mềm"
               type="text"
               className="form-control"
               name="contact-name"
@@ -75,7 +75,7 @@ const FormContribu = () => {
             <label>Kỳ học</label>
             <input
               disable
-              value = "Kỳ 1"
+              value="Kỳ 1"
               type="text"
               className="form-control"
               name="contact-name"
@@ -89,7 +89,7 @@ const FormContribu = () => {
           <div className="col-md-6">
             <label>Mã môn</label>
             <input
-              value = "PRF192"
+              value="PRF192"
               type="text"
               className="form-control"
               name="contact-name"
@@ -99,7 +99,7 @@ const FormContribu = () => {
           <div className="col-md-6">
             <label>Loại tài liêu</label>
             <input
-              value = "Assignment 1"
+              value="Assignment 1"
               type="text"
               className="form-control"
               name="contact-name"
@@ -109,7 +109,7 @@ const FormContribu = () => {
           <div className="col-md-6">
             <label>Giá tiền</label>
             <input
-              value = "150.000"
+              value="150.000"
               type="text"
               className="form-control"
               name="contact-name"
@@ -176,7 +176,7 @@ const FormContribu = () => {
           className="axil-btn btn-fill-primary btn-fluid btn-primary"
           name="submit-btn"
         >
-          Gữi
+          Gửi
         </button>
       </div>
       <div className="form-group">{result ? <Result /> : null}</div>
