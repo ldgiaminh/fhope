@@ -15,7 +15,10 @@ const BlogGridView = () => {
       <ColorSwitcher />
       <main className="main-wrapper">
         <HeaderOne />
-        <BreadCrumbOne title="Blogs" page="Blog" />
+        <BreadCrumbOne
+          title="Bài viết, tin tức đang diễn ra tại trường ĐH FPT HCM"
+          page="Bài viết"
+        />
         <div className="section-padding-equal">
           <div className="container">
             <div className="row row-40">

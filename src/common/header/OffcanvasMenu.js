@@ -41,7 +41,7 @@ const OffcanvasMenu = ({ offcanvasShow, offcanvasHide }) => {
               </li>
               <li>
                 <Link to={process.env.PUBLIC_URL + "/become-buyer"}>
-                  Mở bán tài liệu
+                  Đóng góp tài liệu
                 </Link>
               </li>
               {/* <li>
