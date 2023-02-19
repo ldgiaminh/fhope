@@ -89,6 +89,7 @@ const FormContribu = () => {
           <div className="col-md-6">
             <label>Mã môn</label>
             <input
+              value = "PRF192"
               type="text"
               className="form-control"
               name="contact-name"
@@ -98,6 +99,17 @@ const FormContribu = () => {
           <div className="col-md-6">
             <label>Loại tài liêu</label>
             <input
+              value = "Assignment 1"
+              type="text"
+              className="form-control"
+              name="contact-name"
+              required
+            />
+          </div>
+          <div className="col-md-6">
+            <label>Giá tiền</label>
+            <input
+              value = "150.000"
               type="text"
               className="form-control"
               name="contact-name"
