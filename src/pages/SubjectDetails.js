@@ -16,6 +16,7 @@ import BreadCrumbTwo from "../elements/breadcrumb/BreadCrumbTwo";
 import WidgetMooc from "../component/blog/widget/WidgetMooc";
 import HeaderTwo from "../common/header/HeaderTwo";
 import HeaderLogin from "../common/header/HeaderLogin";
+import Comment from "../component/blog/Comment";
 
 const allProjectData = ProjectData;
 
@@ -69,6 +70,7 @@ const SubjectDetails = () => {
                 </div>
               </div>
             </div>
+            <Comment />
           </div>
         </section>
         <FooterOne parentClass="" />

@@ -5,7 +5,7 @@ const Comment = () => {
   return (
     <>
       <div className="blog-comment">
-        <h3 className="section-title">Comments:</h3>
+        <h3 className="section-title">Bình Luận:</h3>
         <div className="comment-list">
           <div className="comment">
             <div className="thumbnail">
@@ -16,19 +16,15 @@ const Comment = () => {
             </div>
             <div className="content">
               <div className="heading">
-                <h5 className="title">Sophie Asveld</h5>
+                <h5 className="title">Vương Ngọc Khánh (K15 - HCM) </h5>
                 <div className="comment-date">
-                  <p>February 14, 2021</p>
+                  <p>14 thg 02, 2023</p>
                   <button className="reply-btn">
                     <FaReply />
                   </button>
                 </div>
               </div>
-              <p>
-                Email is a crucial channel in any marketing mix, and never has
-                this been truer than for today’s entrepreneur. Curious what to
-                say.
-              </p>
+              <p>Tài liệu thật là đầy đủ và rất hữu ích với mình</p>
             </div>
           </div>
           <div className="comment comment-reply">
@@ -40,19 +36,15 @@ const Comment = () => {
             </div>
             <div className="content">
               <div className="heading">
-                <h5 className="title">Ariana Gerad</h5>
+                <h5 className="title">Tô Hoàng Liêm (K15 - HCM)</h5>
                 <div className="comment-date">
-                  <p>February 14, 2021</p>
+                  <p>16 thg 02, 2023</p>
                   <button className="reply-btn">
                     <FaReply />
                   </button>
                 </div>
               </div>
-              <p>
-                Email is a crucial channel in any marketing mix, and never has
-                this been truer than for today’s entrepreneur. Curious what to
-                say.
-              </p>
+              <p>Mình cũng vậy, đúng cái mình cần tìm nhaa</p>
             </div>
           </div>
           <div className="comment">
@@ -64,19 +56,15 @@ const Comment = () => {
             </div>
             <div className="content">
               <div className="heading">
-                <h5 className="title">Sophie Asveld</h5>
+                <h5 className="title">Mai Trung Hậu (K15 - HCM)</h5>
                 <div className="comment-date">
-                  <p>February 14, 2021</p>
+                  <p>19 thg 02, 2023</p>
                   <button className="reply-btn">
                     <FaReply />
                   </button>
                 </div>
               </div>
-              <p>
-                Email is a crucial channel in any marketing mix, and never has
-                this been truer than for today’s entrepreneur. Curious what to
-                say.
-              </p>
+              <p>Cám ơn bạn nhé, tài liệu này đã giúp mình được 8 điểm</p>
             </div>
           </div>
         </div>
