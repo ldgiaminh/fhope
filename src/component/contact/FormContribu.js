@@ -63,17 +63,12 @@ const FormContribu = () => {
         <div className="row">
           <div className="col-md-6">
             <label>Chuyên ngành</label>
-            <select
+            <input
+              type="text"
               className="form-control"
-              name="majors"
+              name="contact-name"
               required
-              //onChange={this.handleInputChange}
-            >
-              <option selected>Chọn chuyên ngành</option>
-              <option value="1">city 1</option>
-              <option value="2">city 2</option>
-              <option value="3">city 3</option>
-            </select>
+            />
           </div>
           <div className="col-md-6">
             <label>Kỳ học</label>
