@@ -1,6 +1,8 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import Alert from "react-bootstrap/Alert";
+import GoogleButton from "react-google-button";
+import { useNavigate } from "react-router-dom";
 
 const Result = () => {
   return (
@@ -11,39 +13,39 @@ const Result = () => {
 };
 
 const FormOne = () => {
+  const navigate = useNavigate();
+
   const form = useRef();
 
-  const [result, showresult] = useState(false);
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+  //   emailjs
+  //     .sendForm(
+  //       "service_yj5dgzp",
+  //       "template_hfduayo",
+  //       form.current,
+  //       "WLENsTkBytC0yvItS"
+  //     )
+  //     .then(
+  //       (result) => {
+  //         console.log(result.text);
+  //       },
+  //       (error) => {
+  //         console.log(error.text);
+  //       }
+  //     );
+  //   form.current.reset();
+  //   showresult(true);
+  // };
 
-    emailjs
-      .sendForm(
-        "service_yj5dgzp",
-        "template_hfduayo",
-        form.current,
-        "WLENsTkBytC0yvItS"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-    form.current.reset();
-    showresult(true);
-  };
-
-  setTimeout(() => {
-    showresult(false);
-  }, 5000);
+  // setTimeout(() => {
+  //   showresult(false);
+  // }, 5000);
 
   return (
-    <form ref={form} onSubmit={sendEmail} className="axil-contact-form">
-      <div className="form-group">
+    <form ref={form} className="axil-contact-form">
+      {/* <div className="form-group">
         <label>Name</label>
         <input
           type="text"
@@ -81,8 +83,9 @@ const FormOne = () => {
         >
           Get Free Quote
         </button>
-      </div>
-      <div className="form-group">{result ? <Result /> : null}</div>
+      </div> */}
+      <GoogleButton onClick={() => navigate("/subject-list")} />
+      {/* <div className="form-group">{result ? <Result /> : null}</div> */}
     </form>
   );
 };

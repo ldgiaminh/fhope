@@ -53,6 +53,7 @@ import "./assets/scss/app.scss";
 import SubjectMooc from "./pages/SubjectMooc";
 import BecomeBuyer from "./pages/BecomeBuyer";
 import Contribution from "./pages/Contribution";
+import QRCode from "./pages/QRCode";
 
 const App = () => {
   return (
@@ -213,6 +214,10 @@ const App = () => {
           <Route
             path={process.env.PUBLIC_URL + "/contribution"}
             element={<Contribution />}
+          />
+          <Route
+            path={process.env.PUBLIC_URL + "/qr-code"}
+            element={<QRCode />}
           />
         </Routes>
       </ScrollToTop>

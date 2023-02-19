@@ -1,6 +1,4 @@
 import React from "react";
-import DownloadLink from "react-download-link";
-import File from "../../data/assignment/assignment.txt";
 import { Link } from "react-router-dom";
 
 const BlogGridThree = ({ data, colSize }) => {
@@ -32,13 +30,12 @@ const BlogGridThree = ({ data, colSize }) => {
               </Link>
             </h5>
             <p>{blog.excerpt}</p>
-            <DownloadLink
+            <Link
               className="axil-btn btn-borderd"
-              style={{ color: "text-primary" }}
-              label="Tải về"
-              filename="assignment.txt"
-              exportFile={() => File}
-            />
+              to={process.env.PUBLIC_URL + `/qr-code`}
+            >
+              Tải về
+            </Link>
           </div>
         </div>
       ))}
