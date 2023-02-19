@@ -221,7 +221,7 @@ const App = () => {
             element={<QRCode />}
           />
           <Route
-            path={process.env.PUBLIC_URL + "/subject-list-buyer"}
+            path={process.env.PUBLIC_URL + "/subject-list-seller"}
             element={<SubjectPageBuyer />}
           />
         </Routes>

@@ -20,7 +20,7 @@ const BecomeBuyer = () => {
         <HeaderOne />
         <BcrumbBannerOne
           title="Đóng góp tài liệu học tập"
-          paragraph="Give your business a unique logo to stand out from crowd. We’ll create logo specifically for your company.
+          paragraph="Bên cạnh việc theo dõi và tải tài liệu từ 'F-HOPE', người dùng vẫn có thể kiếm tiền tại 'F-HOPE' thông qua ĐÓNG GÓP TÀI LIỆU.
                 "
           styleClass=""
           mainThumb="/images/banner/buyer.png"

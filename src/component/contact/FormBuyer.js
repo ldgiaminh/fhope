@@ -73,7 +73,7 @@ const FormTwo = () => {
 
       <div className="form-group">
         <Link
-          to={"/subject-list-buyer"}
+          to={"/subject-list-seller"}
           className="axil-btn btn-fill-primary btn-fluid btn-primary"
           name="submit-btn"
         >

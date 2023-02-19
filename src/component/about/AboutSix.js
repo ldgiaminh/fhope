@@ -13,39 +13,44 @@ const AboutSix = () => {
           <div className="col-lg-6">
             <div className="why-choose-us">
               <div className="section-heading heading-left">
-                <span className="subtitle">About Us</span>
-                <h3 className="title">Why branding matters?</h3>
+                <span className="subtitle">Đóng góp tài liệu</span>
+                <h3 className="title">
+                  Lợi ích khi tham gia đóng góp tài liệu tại "F-HOPE"?
+                </h3>
                 <p>
-                  Ut condimentum enim nec diam convallis mollis. Sed felis quam,
-                  semper dapibus purus sed, rhoncus ullamcorper lacus.
+                  Ngoài việc tải và mua tải tài liệu trên "F-HOPE", người dùng
+                  có thể đóng góp tài liệu của mình với những lợi ích sau
                 </p>
               </div>
               <Accordion defaultActiveKey="1">
                 <Accordion.Item eventKey="1">
                   <Accordion.Header>
-                    <FaCompress /> Strategy
+                    <FaCompress /> Tăng thu nhập
                   </Accordion.Header>
                   <Accordion.Body>
-                    Aenean hendrerit laoreet vehicula. Nullam convallis augue at
-                    enim gravida pellentesque.
+                    Việc kiếm thêm thu nhập không còn là một trở ngại. Giờ đây,
+                    khi đăng ký trở thành Seller, bạn có thể dễ dàng kiếm tiền
+                    chỉ với việc chia sẻ các tài liệu thật bổ ích!
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="2">
                   <Accordion.Header>
-                    <FaCode /> Design
+                    <FaCode /> Nhận thanh toán dễ dàng
                   </Accordion.Header>
                   <Accordion.Body>
-                    Aenean hendrerit laoreet vehicula. Nullam convallis augue at
-                    enim gravida pellentesque.
+                    FHope hỗ trợ người bán nhận thanh toán rất dễ dàng và nhanh
+                    chóng. Thông qua các cổng thanh toán nổi tiếng và phổ biến ở
+                    Việt Nam bằng Momo trong vòng 24h.
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="3">
                   <Accordion.Header>
-                    <FaGlobe /> Development
+                    <FaGlobe /> Hỗ trợ tận tâm
                   </Accordion.Header>
                   <Accordion.Body>
-                    Aenean hendrerit laoreet vehicula. Nullam convallis augue at
-                    enim gravida pellentesque.
+                    FHope có đội ngũ hỗ trợ nhiệt tình và kịp thời cho người
+                    dùng của mình. Nếu bạn cần bất kỳ sự trợ giúp nào, đội ngũ
+                    hỗ trợ của FHope sẽ giúp bạn giải quyết nhanh nhất có thể
                   </Accordion.Body>
                 </Accordion.Item>
               </Accordion>
