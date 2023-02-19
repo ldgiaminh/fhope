@@ -25,9 +25,16 @@ const BlogGridThree = ({ data, colSize }) => {
               </div>
             </div>
             <h5 className="title">
-              <Link to={process.env.PUBLIC_URL + `/blog-details/${blog.id}`}>
+              {/* <Link to={process.env.PUBLIC_URL + `/blog-details/${blog.id}`}>
                 {blog.title}
-              </Link>
+              </Link> */}
+              {blog.price}
+            </h5>
+            <h5 className="title">
+              {/* <Link to={process.env.PUBLIC_URL + `/blog-details/${blog.id}`}>
+                {blog.title}
+              </Link> */}
+              {blog.title}
             </h5>
             <p>{blog.excerpt}</p>
             <Link
