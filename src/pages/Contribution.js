@@ -76,34 +76,34 @@ const Contribution = () => {
           </li>
         </ul>
 
-        <div className="section section-padding bg-color-dark overflow-hidden">
-          <div className="container">
-            <SectionTitle
-              subtitle="Find Us"
-              title="Our office"
-              description=""
-              textAlignment="heading-light-left"
-              textColor=""
-            />
-            <div className="row">
-              <ContactLocation />
+        {/* <div className="section section-padding bg-color-dark overflow-hidden">
+            <div className="container">
+              <SectionTitle
+                subtitle="Find Us"
+                title="Our office"
+                description=""
+                textAlignment="heading-light-left"
+                textColor=""
+              />
+              <div className="row">
+                <ContactLocation />
+              </div>
             </div>
-          </div>
-          <ul className="shape-group-11 list-unstyled">
-            <li className="shape shape-1">
-              <img
-                src={process.env.PUBLIC_URL + "/images/others/line-6.png"}
-                alt="line"
-              />
-            </li>
-            <li className="shape shape-2">
-              <img
-                src={process.env.PUBLIC_URL + "/images/others/circle-3.png"}
-                alt="line"
-              />
-            </li>
-          </ul>
-        </div>
+            <ul className="shape-group-11 list-unstyled">
+              <li className="shape shape-1">
+                <img
+                  src={process.env.PUBLIC_URL + "/images/others/line-6.png"}
+                  alt="line"
+                />
+              </li>
+              <li className="shape shape-2">
+                <img
+                  src={process.env.PUBLIC_URL + "/images/others/circle-3.png"}
+                  alt="line"
+                />
+              </li>
+            </ul>
+          </div> */}
 
         <FooterOne parentClass="pt--150 pt_lg--100 pt_md--80 pt_sm--60" />
       </main>

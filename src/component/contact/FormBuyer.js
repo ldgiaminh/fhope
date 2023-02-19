@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import Alert from "react-bootstrap/Alert";
+import { Link } from "react-router-dom";
 
 const Result = () => {
   return (
@@ -71,13 +72,13 @@ const FormTwo = () => {
       </div>
 
       <div className="form-group">
-        <button
-          type="submit"
+        <Link
+          to={"/subject-list-buyer"}
           className="axil-btn btn-fill-primary btn-fluid btn-primary"
           name="submit-btn"
         >
           Gữi
-        </button>
+        </Link>
       </div>
       <div className="form-group">{result ? <Result /> : null}</div>
     </form>

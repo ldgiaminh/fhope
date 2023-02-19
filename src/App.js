@@ -54,6 +54,7 @@ import SubjectMooc from "./pages/SubjectMooc";
 import BecomeBuyer from "./pages/BecomeBuyer";
 import Contribution from "./pages/Contribution";
 import QRCode from "./pages/QRCode";
+import SubjectPageBuyer from "./pages/SubjectPageBuyer";
 
 const App = () => {
   return (
@@ -218,6 +219,10 @@ const App = () => {
           <Route
             path={process.env.PUBLIC_URL + "/qr-code"}
             element={<QRCode />}
+          />
+          <Route
+            path={process.env.PUBLIC_URL + "/subject-list-buyer"}
+            element={<SubjectPageBuyer />}
           />
         </Routes>
       </ScrollToTop>
