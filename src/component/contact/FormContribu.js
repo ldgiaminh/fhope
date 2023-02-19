@@ -64,15 +64,18 @@ const FormContribu = () => {
           <div className="col-md-6">
             <label>Chuyên ngành</label>
             <input
+              disable
+              value = "Kỹ thuật phần mềm"
               type="text"
               className="form-control"
               name="contact-name"
-              required
             />
           </div>
           <div className="col-md-6">
             <label>Kỳ học</label>
             <input
+              disable
+              value = "Kỳ 1"
               type="text"
               className="form-control"
               name="contact-name"
