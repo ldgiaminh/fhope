@@ -10,7 +10,7 @@ const Comment = () => {
           <div className="comment">
             <div className="thumbnail">
               <img
-                src={process.env.PUBLIC_URL + "/images/blog/author-1.png"}
+                src={process.env.PUBLIC_URL + "/images/team/ava2.jpg"}
                 alt="Blog Comment"
               />
             </div>
@@ -30,7 +30,7 @@ const Comment = () => {
           <div className="comment comment-reply">
             <div className="thumbnail">
               <img
-                src={process.env.PUBLIC_URL + "/images/blog/author-2.png"}
+                src={process.env.PUBLIC_URL + "/images/team/ava1.jpg"}
                 alt="Blog Comment"
               />
             </div>
@@ -50,7 +50,7 @@ const Comment = () => {
           <div className="comment">
             <div className="thumbnail">
               <img
-                src={process.env.PUBLIC_URL + "/images/blog/author-3.png"}
+                src={process.env.PUBLIC_URL + "/images/team/ava3.jpg"}
                 alt="Blog Comment"
               />
             </div>
