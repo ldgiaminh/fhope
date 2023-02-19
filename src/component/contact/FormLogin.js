@@ -1,7 +1,6 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import Alert from "react-bootstrap/Alert";
-import { Link } from "react-router-dom";
 
 const Result = () => {
   return (
@@ -11,7 +10,7 @@ const Result = () => {
   );
 };
 
-const FormLogin = () => {
+const FormOne = () => {
   const form = useRef();
 
   const [result, showresult] = useState(false);
@@ -45,37 +44,47 @@ const FormLogin = () => {
   return (
     <form ref={form} onSubmit={sendEmail} className="axil-contact-form">
       <div className="form-group">
-        <label>Tên đăng nhập</label>
+        <label>Name</label>
         <input
           type="text"
           className="form-control"
           name="contact-name"
-          placeholder="Gia Minh"
+          placeholder="John Smith"
           required
         />
       </div>
       <div className="form-group">
-        <label>Mật khẩu</label>
+        <label>Email</label>
         <input
           type="email"
           className="form-control"
           name="contact-email"
-          placeholder="123456"
+          placeholder="example@mail.com"
+          required
+        />
+      </div>
+      <div className="form-group mb--40">
+        <label>Phone</label>
+        <input
+          type="tel"
+          className="form-control"
+          name="contact-phone"
+          placeholder="+123456789"
           required
         />
       </div>
       <div className="form-group">
-        <Link
-          to="/subject-list"
+        <button
+          type="submit"
           className="axil-btn btn-fill-primary btn-fluid btn-primary"
           name="submit-btn"
         >
-          Đăng nhập
-        </Link>
+          Get Free Quote
+        </button>
       </div>
       <div className="form-group">{result ? <Result /> : null}</div>
     </form>
   );
 };
 
-export default FormLogin;
+export default FormOne;
