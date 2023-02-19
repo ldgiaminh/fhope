@@ -8,7 +8,7 @@ import FormBuyer from "../component/contact/FormBuyer";
 import SectionTitle from "../elements/section-title/SectionTitle";
 import ContactLocation from "../component/contact/ContactLocation";
 import FormContribu from "../component/contact/FormContribu";
-import ProjectOne from "../component/project/ProjectOne";
+import ProjectSix from "../component/project/ProjectSix";
 
 const Contribution = () => {
   return (
@@ -77,7 +77,7 @@ const Contribution = () => {
           </li>
         </ul>
 
-        <ProjectOne
+        <ProjectSix
           colSize="col-xl-3 col-lg-4 col-md-6"
           itemShow="8"
           columnGap="row-15"

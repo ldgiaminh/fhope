@@ -1,0 +1,47 @@
+[
+  {
+      "id": 1,
+      "image": "/images/project/prf192.png",
+      "title": "PRF192",
+      "subtitle":"Programming Fundamentals",
+      "category": ["Đang duyệt"],
+      "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
+      "body": ["From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing.", "Digital technology has made our world more transparent and interconnected, posing new challenges and opportunities for every business. A holistic, user-centric perspective is what truly sets one apart."]
+  },
+  {
+      "id": 2,
+      "image": "/images/project/mae101.png",
+      "title": "MAE101",
+      "subtitle":"Mathematics for Engineering",
+      "category": ["Đã duyệt"],
+      "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
+      "body": ["From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing.", "Digital technology has made our world more transparent and interconnected, posing new challenges and opportunities for every business. A holistic, user-centric perspective is what truly sets one apart."]
+  },
+  {
+      "id": 3,
+      "image": "/images/project/cea201.png",
+      "title": "CEA201",
+      "subtitle":"Computer Organization and Architecture",
+      "category": ["Từ chối"],
+      "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
+      "body": ["From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing.", "Digital technology has made our world more transparent and interconnected, posing new challenges and opportunities for every business. A holistic, user-centric perspective is what truly sets one apart."]
+  },
+  {
+      "id": 4,
+      "image": "/images/project/csi104.png",
+      "title": "CSI101",
+      "subtitle":"Introduction to computing",
+      "category": ["Đã duyệt"],
+      "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
+      "body": ["From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing.", "Digital technology has made our world more transparent and interconnected, posing new challenges and opportunities for every business. A holistic, user-centric perspective is what truly sets one apart."]
+  },
+  {
+      "id": 5,
+      "image": "/images/project/ssl101c.png",
+      "title": "SSL101",
+      "subtitle":"Academic Skills for University Success",
+      "category": ["Đã duyệt"],
+      "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
+      "body": ["From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing.", "Digital technology has made our world more transparent and interconnected, posing new challenges and opportunities for every business. A holistic, user-centric perspective is what truly sets one apart."]
+  }
+]
