@@ -34,7 +34,7 @@ const OffcanvasMenu = ({ offcanvasShow, offcanvasHide }) => {
           </div>
         </form> */}
         <div className="row ">
-          <div className="col-lg-5 col-xl-6">
+          <div>
             <ul className="main-navigation list-unstyled">
               <li>
                 <Link to={process.env.PUBLIC_URL + "/"}>Trang cá nhân</Link>

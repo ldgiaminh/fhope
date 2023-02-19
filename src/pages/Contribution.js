@@ -1,32 +1,32 @@
-import React from "react";
+import React, { useState } from "react";
 import SEO from "../common/SEO";
 import ColorSwitcher from "../elements/switcher/ColorSwitcher";
 import FooterOne from "../common/footer/FooterOne";
 import HeaderOne from "../common/header/HeaderOne";
 import BreadCrumbOne from "../elements/breadcrumb/BreadCrumbOne";
-import FormTwo from "../component/contact/FormTwo";
+import FormBuyer from "../component/contact/FormBuyer";
 import SectionTitle from "../elements/section-title/SectionTitle";
 import ContactLocation from "../component/contact/ContactLocation";
+import FormContribu from "../component/contact/FormContribu";
 
-const Contact = () => {
+const Contribution = () => {
   return (
     <>
       <SEO title="Blog Grid" />
       {/* <ColorSwitcher /> */}
       <main className="main-wrapper">
-        {/* <HeaderOne /> */}
-        <BreadCrumbOne title="Contact" page="Contact" />
+        <HeaderOne />
+        <BreadCrumbOne title="Đóng góp tài liệu" page="Đóng góp tài liệu" />
 
         <div className="section section-padding">
           <div className="container">
-            <div className="row">
-              <div className="col-xl-5 col-lg-6">
+            {/* <div className="col-xl-5 col-lg-6">
                 <div className="contact-form-box shadow-box mb--30">
                   <h3 className="title">Get a free Abstrak quote now</h3>
                   <FormTwo />
                 </div>
-              </div>
-              <div className="col-xl-5 col-lg-6 offset-xl-1">
+              </div> */}
+            {/* <div className="col-xl-5 col-lg-6 offset-xl-1">
                 <div className="contact-info mb--100 mb_md--30 mt_md--0 mt--150">
                   <h4 className="title">Phone</h4>
                   <p>
@@ -46,30 +46,35 @@ const Contact = () => {
                     <a href="mailto:info@example.com">info@example.com</a>
                   </h4>
                 </div>
+              </div> */}
+            <div className="col-lg-12">
+              <div className="contact-form-box shadow-box mb--30">
+                <h3 className="title">Tải tài liệu lên tại đây</h3>
+                <FormContribu />
               </div>
             </div>
           </div>
-          <ul className="list-unstyled shape-group-12">
-            <li className="shape shape-1">
+        </div>
+        <ul className="list-unstyled shape-group-12">
+          {/* <li className="shape shape-1">
               <img
                 src={process.env.PUBLIC_URL + "/images/others/bubble-2.png"}
                 alt="Bubble"
               />
-            </li>
-            <li className="shape shape-2">
-              <img
-                src={process.env.PUBLIC_URL + "/images/others/bubble-1.png"}
-                alt="Bubble"
-              />
-            </li>
-            <li className="shape shape-3">
-              <img
-                src={process.env.PUBLIC_URL + "/images/others/circle-3.png"}
-                alt="Circle"
-              />
-            </li>
-          </ul>
-        </div>
+            </li> */}
+          <li className="shape shape-2">
+            <img
+              src={process.env.PUBLIC_URL + "/images/others/bubble-1.png"}
+              alt="Bubble"
+            />
+          </li>
+          <li className="shape shape-3">
+            <img
+              src={process.env.PUBLIC_URL + "/images/others/circle-3.png"}
+              alt="Circle"
+            />
+          </li>
+        </ul>
 
         <div className="section section-padding bg-color-dark overflow-hidden">
           <div className="container">
@@ -106,4 +111,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Contribution;

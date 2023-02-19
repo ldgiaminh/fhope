@@ -52,6 +52,7 @@ import SubjectPage from "./pages/SubjectPage";
 import "./assets/scss/app.scss";
 import SubjectMooc from "./pages/SubjectMooc";
 import BecomeBuyer from "./pages/BecomeBuyer";
+import Contribution from "./pages/Contribution";
 
 const App = () => {
   return (
@@ -208,6 +209,10 @@ const App = () => {
           <Route
             path={process.env.PUBLIC_URL + "/become-buyer"}
             element={<BecomeBuyer />}
+          />
+          <Route
+            path={process.env.PUBLIC_URL + "/contribution"}
+            element={<Contribution />}
           />
         </Routes>
       </ScrollToTop>
