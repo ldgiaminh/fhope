@@ -47,6 +47,7 @@ const FormTwo = () => {
       <div className="form-group">
         <label>CMND/CCCD</label>
         <input
+          value = "0123012300123"
           type="text"
           className="form-control"
           name="contact-name"
@@ -56,6 +57,7 @@ const FormTwo = () => {
       <div className="form-group">
         <label>Số điện thoại</label>
         <input
+          value = "0774812914"
           type="tel"
           className="form-control"
           name="contact-phone"
@@ -65,6 +67,7 @@ const FormTwo = () => {
       <div className="form-group mb--40">
         <label>Cho chúng tôi biết thêm về bạn?</label>
         <textarea
+          value = "Tôi tên là A"
           className="form-control"
           name="contact-message"
           rows="4"
