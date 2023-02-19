@@ -8,6 +8,7 @@ import FormBuyer from "../component/contact/FormBuyer";
 import SectionTitle from "../elements/section-title/SectionTitle";
 import ContactLocation from "../component/contact/ContactLocation";
 import FormContribu from "../component/contact/FormContribu";
+import ProjectOne from "../component/project/ProjectOne";
 
 const Contribution = () => {
   return (
@@ -76,6 +77,12 @@ const Contribution = () => {
           </li>
         </ul>
 
+        <ProjectOne
+          colSize="col-xl-3 col-lg-4 col-md-6"
+          itemShow="8"
+          columnGap="row-15"
+          parentClass="project-column-4"
+        />
         {/* <div className="section section-padding bg-color-dark overflow-hidden">
             <div className="container">
               <SectionTitle

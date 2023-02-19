@@ -5,7 +5,7 @@ import SplashHeader from "../common/header/SplashHeader";
 import SEO from "../common/SEO";
 import SplashBanner from "../component/banner/SplashBanner";
 import SplashCta from "../component/cta/SplashCta";
-import CtaLayoutOne from "../component/cta/CtaLayoutOne"
+import CtaLayoutOne from "../component/cta/CtaLayoutOne";
 import ColorSwitcher from "../elements/switcher/ColorSwitcher";
 import SplashData from "../data/splash/SplashData.json";
 import { slugify } from "../utils";
@@ -72,7 +72,7 @@ const Splash = () => {
 
         <ProjectOne
           colSize="col-xl-3 col-lg-4 col-md-6"
-          itemShow="5"
+          itemShow="8"
           columnGap="row-15"
           parentClass="project-column-4"
         />

@@ -14,15 +14,17 @@ const Contact = () => {
       <SEO title="Blog Grid" />
       {/* <ColorSwitcher /> */}
       <main className="main-wrapper">
-        {/* <HeaderOne /> */}
-        <BreadCrumbOne title="Contact" page="Contact" />
+        <HeaderOne />
+        <BreadCrumbOne title="Liên hệ với chúng tôi" page="Liên hệ" />
 
         <div className="section section-padding">
           <div className="container">
             <div className="row">
               <div className="col-xl-5 col-lg-6">
                 <div className="contact-form-box shadow-box mb--30">
-                  <h3 className="title">Để lại thông tin liên hệ cho chúng tôi</h3>
+                  <h3 className="title">
+                    Để lại thông tin liên hệ cho chúng tôi
+                  </h3>
                   <FormTwo />
                 </div>
               </div>
@@ -63,7 +65,6 @@ const Contact = () => {
             </li>
           </ul>
         </div>
-
 
         <FooterOne parentClass="pt--150 pt_lg--100 pt_md--80 pt_sm--60" />
       </main>
