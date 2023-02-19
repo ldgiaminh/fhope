@@ -61,12 +61,7 @@ const SubjectDetails = () => {
               <div className="col-lg-6 offset-xl-1">
                 <div className="why-choose-us">
                   <div className="section-heading heading-left">
-                    <h3 className="title">We delivered</h3>
-                    <p>
-                      Digital technology has made our world more transparent and
-                      interconnected, posing new challenges and opportunities
-                      for every business.
-                    </p>
+                    <h3 className="title">Nguồn tài liệu tham khảo</h3>
                   </div>
                   <div className="widget widget-categories">
                     <WidgetMooc />

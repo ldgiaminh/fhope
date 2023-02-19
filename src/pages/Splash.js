@@ -77,7 +77,7 @@ const Splash = () => {
           parentClass="project-column-4"
         />
 
-        <BlogOne />
+        {/* <BlogOne /> */}
         <CtaLayoutOne />
         <FooterOne />
       </main>

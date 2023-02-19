@@ -95,7 +95,7 @@ const FooterOne = ({ parentClass }) => {
                         <li>
                           {" "}
                           <Link to={process.env.PUBLIC_URL + "/privacy-policy"}>
-                            Chính sách
+                            Chính sách 
                           </Link>
                         </li>
                         <li>

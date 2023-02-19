@@ -37,7 +37,7 @@ const FormTwo = () => {
     return (
         <form ref={form} onSubmit={sendEmail} className="axil-contact-form">
         <div className="form-group">
-            <label>Name</label>
+            <label>Tên</label>
             <input type="text" className="form-control" name="contact-name" required />
         </div>
         <div className="form-group">
@@ -45,16 +45,16 @@ const FormTwo = () => {
             <input type="email" className="form-control" name="contact-email" required />
         </div>
         <div className="form-group">
-            <label>Phone</label>
+            <label>Số điện thoại</label>
             <input type="tel" className="form-control" name="contact-phone" required />
         </div>
         <div className="form-group mb--40">
-            <label>How can we help you?</label>
+            <label>Chúng tôi có thể giúp gì cho bạn? </label>
             <textarea className="form-control" name="contact-message" rows="4"></textarea>
             
         </div>
         <div className="form-group">
-            <button type="submit" className="axil-btn btn-fill-primary btn-fluid btn-primary" name="submit-btn">Get Pricing Now</button>
+            <button type="submit" className="axil-btn btn-fill-primary btn-fluid btn-primary" name="submit-btn">Gửi</button>
         </div>
         <div className="form-group">
             {result ? <Result /> : null}
